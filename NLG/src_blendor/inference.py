@@ -13,6 +13,7 @@ from torch.nn.utils.rnn import pad_sequence
 from tqdm import tqdm
 import torch
 import json
+import random
 import torch.nn.functional as F
 
 def main(
@@ -37,6 +38,10 @@ def main(
     result = []
     count = 0
     total = 0
+    # Enable these patterm to appear in the chit-chat response
+    enable_patterm = ['you are welcome', 'you are very welcome', 'you\'re welcome']
+    # Ban probability in percentage
+    ban_probability = 95
     # Generate reponse from BlendorBot
     for i, (uttr, dia_id) in enumerate(zip(utterances, dialogues_id)):
         dia_result = {}
@@ -49,28 +54,39 @@ def main(
             inputs = {'input_ids': torch.LongTensor(inputs['input_ids']).unsqueeze(0).to(device), 'attention_mask': torch.LongTensor(inputs['attention_mask']).unsqueeze(0).to(device)}
             reply_ids = model.generate(
                 **inputs,
-                max_length=8,
-                min_length=2,
-                num_beams=5,
+                max_length=20,
+                min_length=10,
+                num_beams=20,
                 no_repeat_ngram_size=2,
-                early_stopping=True,
-                num_return_sequences=5, 
+                num_return_sequences=20, 
             )
             candidates = tokenizer.batch_decode(reply_ids, skip_special_tokens=True)
-            candidates = [x.strip() for x in candidates]
+            sys_chitchat = [x.strip() for x in candidates]
+            # Enable some patterms to appear
+            candidates = [] 
+            for chitchat in sys_chitchat:
+                flag = True
+                for patterm in enable_patterm:
+                    if chitchat.lower().find(patterm) >= 0:
+                        if random.randint(1,100) <= ban_probability:
+                            flag = False
+                            break 
+                if flag:
+                    candidates.append(chitchat)
             input_ids, att_masks = [],[]
             for x in candidates:
                 input_id, att_mask = construct_conv([user_uttr,x,sys_uttr] ,cls_tokenizer)
                 input_ids.append(torch.LongTensor(input_id))
                 att_masks.append(torch.LongTensor(att_mask))
-            input_ids = pad_sequence(input_ids, batch_first=True, padding_value=cls_tokenizer.pad_token_id)
-            att_masks = pad_sequence(att_masks, batch_first=True, padding_value=0)
-            inputs = {'input_ids': input_ids.to(device), 'attention_mask': att_masks.to(device)}
-            output = begin_model(**inputs)
-            prob = F.softmax(output['logits'], dim=1)
-            winner_index = torch.argmax(prob[:,1])
-            if prob[winner_index,1] > 0.7:
-                posible_ans.append({'chit-chat': candidates[winner_index], 'posibility': prob[winner_index,1], 'type': 'beginning'})
+            if len(input_ids) != 0:
+                input_ids = pad_sequence(input_ids, batch_first=True, padding_value=cls_tokenizer.pad_token_id)
+                att_masks = pad_sequence(att_masks, batch_first=True, padding_value=0)
+                inputs = {'input_ids': input_ids.to(device), 'attention_mask': att_masks.to(device)}
+                output = begin_model(**inputs)
+                prob = F.softmax(output['logits'], dim=1)
+                winner_index = torch.argmax(prob[:,1])
+                if prob[winner_index,1] > 0.5:
+                    posible_ans.append({'chit-chat': candidates[winner_index], 'posibility': prob[winner_index,1], 'type': 'beginning'})
             # Generate chit-chat response at the end 
             inputs = tokenizer([user_uttr, sys_uttr])
             input_ids = [x for input_id in inputs['input_ids'] for x in input_id]
@@ -78,28 +94,39 @@ def main(
             inputs = {'input_ids': torch.LongTensor(input_ids).unsqueeze(0).to(device), 'attention_mask': torch.LongTensor(att_masks).unsqueeze(0).to(device)}
             reply_ids = model.generate(
                 **inputs,
-                max_length=7,
-                min_length=2,
-                num_beams=5,
+                max_length=20,
+                min_length=10,
+                num_beams=20,
                 no_repeat_ngram_size=2,
-                early_stopping=True,
-                num_return_sequences=5, 
+                num_return_sequences=20, 
             )
             candidates = tokenizer.batch_decode(reply_ids, skip_special_tokens=True)
-            candidates = [x.strip() for x in candidates]
+            sys_chitchat = [x.strip() for x in candidates]
+            # Enable some patterms to appear
+            candidates = [] 
+            for chitchat in sys_chitchat:
+                flag = True
+                for patterm in enable_patterm:
+                    if chitchat.lower().find(patterm) >= 0:
+                        if random.randint(1,100) <= ban_probability:
+                            flag = False
+                            break 
+                if flag:
+                    candidates.append(chitchat)
             input_ids, att_masks = [],[]
             for x in candidates:
                 input_id, att_mask = construct_conv([user_uttr,sys_uttr,x] ,cls_tokenizer)
                 input_ids.append(torch.LongTensor(input_id))
                 att_masks.append(torch.LongTensor(att_mask))
-            input_ids = pad_sequence(input_ids, batch_first=True, padding_value=cls_tokenizer.pad_token_id)
-            att_masks = pad_sequence(att_masks, batch_first=True, padding_value=0)
-            inputs = {'input_ids': input_ids.to(device), 'attention_mask': att_masks.to(device)}
-            output = end_model(**inputs)
-            prob = F.softmax(output['logits'], dim=1)
-            winner_index = torch.argmax(prob[:,1])
-            if prob[winner_index,1] > 0.7:
-                posible_ans.append({'chit-chat': candidates[winner_index], 'posibility': prob[winner_index,1].item(), 'type': 'end'})
+            if len(input_ids) != 0:
+                input_ids = pad_sequence(input_ids, batch_first=True, padding_value=cls_tokenizer.pad_token_id)
+                att_masks = pad_sequence(att_masks, batch_first=True, padding_value=0)
+                inputs = {'input_ids': input_ids.to(device), 'attention_mask': att_masks.to(device)}
+                output = end_model(**inputs)
+                prob = F.softmax(output['logits'], dim=1)
+                winner_index = torch.argmax(prob[:,1])
+                if prob[winner_index,1] > 0.5:
+                    posible_ans.append({'chit-chat': candidates[winner_index], 'posibility': prob[winner_index,1].item(), 'type': 'end'})
             if len(posible_ans) != 0:
                 posible_ans.sort(key = lambda x: x['posibility'])
                 best_ans = posible_ans[0]
