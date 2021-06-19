@@ -132,13 +132,13 @@ def main(
                 best_ans = posible_ans[0]
                 if best_ans['type'] == 'beginning':
                     turns.append({'speaker': 'USER', 'utterance': user_uttr})
-                    turns.append({'speaker': 'SYSTEM', 'utterance': best_ans['chit-chat']+'. '+sys_uttr, 'modified': True, 'additional_chitchat': best_ans['chit-chat']})
+                    turns.append({'speaker': 'SYSTEM', 'utterance': best_ans['chit-chat']+' '+sys_uttr, 'modified': True, 'additional_chitchat': best_ans['chit-chat']})
                     #print({'speaker': 'USER', 'utterance': user_uttr})
                     #print({'speaker': 'SYSTEM', 'utterance': best_ans['chit-chat']+' '+sys_uttr, 'modified': True, 'additional_chitchat': best_ans['chit-chat']})
                     #print('----------------------------------------------------------------')
                 elif best_ans['type'] == 'end':
                     turns.append({'speaker': 'USER', 'utterance': user_uttr})
-                    turns.append({'speaker': 'SYSTEM', 'utterance': sys_uttr+'. '+best_ans['chit-chat'], 'modified': True, 'additional_chitchat': best_ans['chit-chat']})
+                    turns.append({'speaker': 'SYSTEM', 'utterance': sys_uttr+' '+best_ans['chit-chat'], 'modified': True, 'additional_chitchat': best_ans['chit-chat']})
                     #print({'speaker': 'USER', 'utterance': user_uttr})
                     #print({'speaker': 'SYSTEM', 'utterance': sys_uttr+' '+best_ans['chit-chat'], 'modified': True, 'additional_chitchat': best_ans['chit-chat']})
                     #print('----------------------------------------------------------------')
@@ -149,7 +149,7 @@ def main(
             total += 1
         dia_result['turns'] = turns
         result.append(dia_result)
-    print(f'Succesful rate: {count/total}')
+    print(f'Adding chit-chat response rate: {count/total}')
     with open(output_file_path, 'w') as fp:
         json.dump(result, fp, indent=6)
 
