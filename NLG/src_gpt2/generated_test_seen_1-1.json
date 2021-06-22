@@ -1,0 +1,4773 @@
+{
+  "PMUL0320": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to stay if you're looking for a place to stay."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " It is a great place to stay and a great place to visit."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you have a great time at the hotel."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to eat in San Francisco."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to eat and drink."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": "I think it's a great place to stay."
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "19": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "21": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": "Is there anything else I can help you with?"
+    }
+  },
+  "MUL2155": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": "I can help you find a train for you."
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with anything else you may need."
+    },
+    "17": {
+      "start": "Train TR1745 will arrive at Leicester Station by 19:06. Do you want tickets for that?",
+      "mod": "",
+      "end": ""
+    },
+    "19": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good deal?"
+    },
+    "21": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL0815": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to get a bite to eat."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to get a bite to eat."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a train to go there."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": "Sure thing. The TR1992 leaves at 21:35. Would that work for you?"
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": "Sure thing. The TR1992 leaves at 21:35. Would that work for you?"
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": "Is there anything else I can help you with?"
+    },
+    "15": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL3263": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "Sure, what time would you like to go?",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    },
+    "9": {
+      "start": "There is a train that leaves at 7:40 am and arrives in Cambridge at 7:50 am. Is that okay with you?",
+      "mod": "",
+      "end": " I can help you find a train to Cambridge."
+    },
+    "11": {
+      "start": "Great! How many tickets would you like?",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you out."
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at Cambridge."
+    },
+    "19": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": "Have a great day."
+    }
+  },
+  "SNG0423": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to visit."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "Yes, that would be great.",
+      "mod": "",
+      "end": " Do you think that's a good deal? "
+    },
+    "11": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": " I hope you enjoy your trip."
+    }
+  },
+  "SNG0296": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good one for you."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good deal for you."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that. You should check it out."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL0079": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I can help you find a good place to stay."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "Yes, that sounds like a good idea.",
+      "mod": "",
+      "end": " I can help you out."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": "Sure, there are so many to choose from."
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG0840": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I've found 10 hotels that might work for you. There's a nice 3 star hotel called Ac Hotel By Marriott Cambridge."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I think it's a great place to stay."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL0089": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "There are 3 guesthouses you might like. I'd be happy to book one for you."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think it's a good place to stay?"
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": "Sure. There are three guesthouses there. I'd be happy to book one for you if you like."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think it's a good deal for you?"
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "Sure. I found 10 restaurants. How about Dalian Cuisine in the east? It's in the expensive price range. How does that sound?",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at the hotel."
+    }
+  },
+  "SNG0528": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good restaurant in that area."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "Yes, that's correct.",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you enjoy your stay at the restaurant."
+    }
+  },
+  "SNG01367": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good one for you."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    }
+  },
+  "PMUL3858": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": "  If you are looking for something in Cambridge, please check it out."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": "I have found 10 british restaurants in cambridge. Would this be a good choice?"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think it would be a good place to stay?"
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": "Have a wonderful day."
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "19": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": "i hope you enjoy your stay."
+    },
+    "21": {
+      "start": "i hope you enjoy your stay.",
+      "mod": "",
+      "end": "Have a great day."
+    }
+  },
+  "MUL0225": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you enjoy your trip."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL1966": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that. I can help you with that."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " There are so many to choose from. What do you think?"
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": "Have a great day. I hope you enjoy your stay."
+    }
+  },
+  "SNG01290": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that. What do you think?"
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "Have a nice day.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG0888": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " It is a great place to visit."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": "Have a wonderful day. I hope you enjoy your stay."
+    }
+  },
+  "PMUL4247": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I've found 10 guesthouses that might work for you. Would you like to stay in one of those?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": "I can help you find a train for you."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good idea?"
+    },
+    "11": {
+      "start": "I can help you with that. The arrival time is 14:01 and the arrival time is 15:01.",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you enjoy your stay."
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you have a great time at work."
+    },
+    "19": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you have a great time at the event."
+    },
+    "21": {
+      "start": "i hope you enjoy your trip.",
+      "mod": "",
+      "end": ""
+    },
+    "23": {
+      "start": "i hope you enjoy your trip.",
+      "mod": "",
+      "end": "Have a great day. I hope you enjoy your trip."
+    },
+    "25": {
+      "start": "i hope you enjoy your trip.",
+      "mod": "",
+      "end": "I hope you have a great time at work."
+    }
+  },
+  "SNG0589": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "What do you think about that one?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you enjoy your meal. I hope you have a great time!"
+    }
+  },
+  "MUL2089": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to stay."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to stay."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to visit."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I can do that for you if you'd like."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that. You can reach me at +1 825-839-7000."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG01434": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good idea?"
+    },
+    "5": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL0237": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "There are 10 restaurants which you may like. There is a nice restaurant in San Francisco called Bahia Restaurant which serves indian food."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": "There is a train leaving Cambridge at 7:40 am, does that work for you?"
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": "There are 3 trains that fit what you are looking for. I can book you at 5:10, 6:10, or 7:10."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you out."
+    },
+    "13": {
+      "start": "I can help you with that. The train leaves Cambridge at 5:11 pm and arrives in London at 6:11 pm. The destination is London",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL4125": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "Do you think they would be a good place to eat?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": "I can help you find a train for you."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good idea?"
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    },
+    "11": {
+      "start": " you are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL1588": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "  If you have any other questions, please don't hesitate to contact us."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "Yes, I can help you with that. What time do you want to leave?",
+      "mod": "",
+      "end": "I can also help you with that. You can reach me at +44 20 707 7800. Do you have any other questions?"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good idea?"
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "You are very welcome.",
+      "mod": "",
+      "end": "I hope you have a great time at the restaurant!"
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good idea?"
+    },
+    "17": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG0253": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find the best one for you."
+    },
+    "3": {
+      "start": "Surely, where will you be departing from?",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG0580": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to eat."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": "I hope you have a great time at the restaurant."
+    }
+  },
+  "PMUL4440": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "it is a moderately priced restaurant in the east that serves italian food."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with anything you need help with."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with anything you'd like."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that if you'd like."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "Yes, that would be great.",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you enjoy your stay at the guesthouse."
+    },
+    "17": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": " i hope you enjoy your stay."
+    },
+    "19": {
+      "start": " you are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL4840": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " There are a lot of options to choose from."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to stay if you're looking for a place to stay."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good idea?"
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG0081": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good one for you."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the hotel."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG02172": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think it would be a good place to stay?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": "I have found 10 results. The lovell lodge is a great place to stay."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": "Do you think it would be a good place to stay?"
+    },
+    "9": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL0550": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "There is a train departing at 10:40 am with 0 transfers. It leaves at 10:40 am with 0 transfers."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good deal?"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": "There are 10 restaurants that you may like. Do you prefer one in the centre?"
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to eat in Cambridge."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you have a great time at the restaurant."
+    },
+    "13": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL3558": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "What time would you like to leave?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you out."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": "I think that's a great place to stay."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": "I can help you with that. I can help you with that."
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": " i ' m sure you ' ll have a great time."
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you out if you need help."
+    },
+    "19": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you have a great time at Cambridge."
+    },
+    "21": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "23": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you out."
+    },
+    "25": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you have a great time at Cambridge."
+    },
+    "27": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": ""
+    },
+    "29": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG0323": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "There is a train leaving at 7:20 am with 0 transfers."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a train for you."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good idea?"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you have a great time on the trip."
+    },
+    "9": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL0323": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " It is a great place to eat in Cambridge."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    }
+  },
+  "SNG01359": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    }
+  },
+  "SNG0568": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find what you're looking for."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG02315": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a place to stay."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL0744": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a train for you."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": "There are 10 hotels that meet your criteria. There is a nice 2 star hotel called Ac Hotel By Marriott Cambridge Bay, it has free parking."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that. It's a great place to stay."
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you have a great time at the hotel."
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG1004": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": "It's a great place to stay. It has free parking."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I can do that for you if you'd like."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": "Have a wonderful day! I'm sure you'll enjoy your stay."
+    }
+  },
+  "PMUL0998": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " There are a lot of great restaurants in the centre."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": "There are many great restaurants in the centre. Is there a certain type of food you would like to have?"
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to get a bite to eat."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "What station do you want to go to?",
+      "mod": "",
+      "end": " I can help you with that if you would like."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": "Have a great day. I hope you enjoy your trip."
+    }
+  },
+  "PMUL4660": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": "  If you have any questions, please don't hesitate to contact me."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": "I can help you find a train for you."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": "There is a train that leaves at 7:40 am and arrives at Norwich Station at 7:40 am. Is that correct?"
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to visit."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that's a good price for you?"
+    },
+    "13": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "i hope you enjoy your stay.",
+      "mod": "",
+      "end": " i ' m sure you ' ll enjoy it."
+    }
+  },
+  "SNG0006": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can do that for you. Do you have any questions?"
+    },
+    "5": {
+      "start": "i hope you have a great time.",
+      "mod": "",
+      "end": "I hope you have a great time at the event."
+    }
+  },
+  "PMUL1755": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good one for you."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": "I found 10 hotels that meet your criteria. One of them is a 4 star hotel called Aloft Cambridge."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": " I can help you with anything you need to know."
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL0399": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " There are 10 places to stay in Cambridge. Do you have a preferred area of Cambridge?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": "There is 1 available would you like to book it?"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to visit."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to stay."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you out."
+    },
+    "15": {
+      "start": "I can do that for you.",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "19": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "21": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": "Have a great day."
+    }
+  },
+  "SNG0085": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good one for you."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG02205": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    }
+  },
+  "SNG01153": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good one for you."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": "The Cambridge Punter is a great place to visit."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL1555": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to get a bite to eat."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good idea?"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that is a good idea? "
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": " you are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL0844": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I'd be happy to help you with that."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you out."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "Yes, that sounds like a good idea.",
+      "mod": "",
+      "end": " It's a great place to visit if you're looking for a place to eat."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good deal?"
+    },
+    "11": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you enjoy your meal. I hope you have a great time."
+    }
+  },
+  "SNG0691": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "Sure, I can help you find a good place to eat."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to visit."
+    },
+    "5": {
+      "start": "okay, that sounds like a good idea.",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    }
+  },
+  "PMUL4949": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I found 10 restaurants in Cambridge. What do you think?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": "I would be happy to assist you with that."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good idea?"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good deal?"
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think they would be a good choice?"
+    },
+    "11": {
+      "start": "I can do that for you. The reference number is 907-737-1000.",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL1248": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " There are a lot of great places to stay in Cambridge."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good place to stay?"
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good place to stay?"
+    },
+    "7": {
+      "start": " That sounds like a lot of fun.",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that as well! Do you have a specific cuisine preference you are looking for?"
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": "I can help you with that as well! Do you have a specific cuisine preference you are looking for?"
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that as well! Do you have a specific cuisine preference you are looking for?"
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "19": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "21": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    },
+    "23": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant!"
+    }
+  },
+  "SNG0416": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I can help you find a train that leaves at 7:40 am."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a place to stay."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG0832": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " It is a great place to visit if you are looking for a place to stay."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good idea?"
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL4643": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "what type of food are you looking for?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good place to stay?"
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you have a great time at the hotel."
+    },
+    "15": {
+      "start": " you are welcome.",
+      "mod": "",
+      "end": " I hope you enjoy your stay."
+    }
+  },
+  "MUL0071": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I found 10 restaurants in the centre of town. What do you think?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": "There are 10 hotels in the centre of town that you might like. What do you think?"
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to visit if you're looking for a place to stay."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": " You're welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    }
+  },
+  "SNG0317": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "I can help you with that. The train leaves at 10:30 am and arrives in Cambridge at 10:45 am.",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that if you'd like."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good deal?"
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that."
+    },
+    "13": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at Cambridge."
+    }
+  },
+  "PMUL4693": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "It's a great place to stay. It has 4 stars."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " It would be a great place to stay if you are looking for a place to stay."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you have a great time at the hotel."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you out."
+    },
+    "11": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": "Have a great day."
+    }
+  },
+  "MUL1575": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to eat."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a train for you."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that's a good deal? "
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    }
+  },
+  "PMUL3309": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "What city would you like to go to?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to visit."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you enjoy your trip."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to eat and drink."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL0578": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "There are a lot of great restaurants in Cambridge."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " There are a lot of great restaurants in Cambridge."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": "I'd be happy to help you with that."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that if you'd like."
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": "I'd be happy to help you with that."
+    },
+    "15": {
+      "start": "You're welcome.",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG0390": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "You would like to depart on March 7th from Cambridge to Bishops Stortford. Is this correct?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at Bishops Stortford."
+    },
+    "5": {
+      "start": " That sounds like a good idea.",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good deal?"
+    },
+    "9": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL2120": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I've found 10 trains that might work for you. There's a train leaving at 8:40 am that leaves at 8:40 am. It"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good idea?"
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a nice place to stay."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": "Have a great day. I hope you enjoy your stay."
+    }
+  },
+  "MUL0671": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a train for you."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " That sounds like a lot of fun."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you have a great time at the train station."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " There are 10 hotels that meet your criteria. How about Ac Hotel By Marriott Beverly Hills?"
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL0197": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "There are 10 restaurants that match your criteria. Would you like to go with a particular type of food?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": "Do you think that would be a good choice?"
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think it's a good place to stay?"
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": "Have a great day! I hope you enjoy your stay!"
+    }
+  },
+  "MUL2269": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to stay."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": "I have found 10 hotels that match your criteria. One of them is the Huntingdon Marriott and Cambridge Belfry, which have 4 stars."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " I can do that for you if you'd like."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to stay."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to visit and you should check it out."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL2053": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "Would you like to stay at ashley hotel?"
+    },
+    "3": {
+      "start": "Yes, it does.",
+      "mod": "",
+      "end": "Yes, you can book a room at ashley hotel in 74 chesterton road."
+    },
+    "5": {
+      "start": "Would you like to book a room at the ashley hotel?",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good place to stay?"
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find the best one for you."
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you enjoy your stay at the hotel."
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "19": {
+      "start": " You are very welcome.",
+      "mod": "",
+      "end": "Have a great day. I hope you enjoy your stay."
+    }
+  },
+  "MUL2146": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "Have a nice day.",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that. I can help you with that."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL1695": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good one for you."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " It is a great place to visit."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": "There is a train that departs at 09:20 and arrives in Cambridge at 09:40. Is that correct?"
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with anything else you need."
+    },
+    "17": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL2138": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I've found 10 trains that might work for you. There's a train that leaves at 7:40 am and has 0 transfers. It costs $"
+    },
+    "3": {
+      "start": "Okay, that sounds like a lot of fun.",
+      "mod": "",
+      "end": " I can help you find the best one for you."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "Okay, that sounds good.",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " I think it's a great place to stay."
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": "Have a great day! I hope you enjoy your stay!"
+    }
+  },
+  "MUL0264": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I can help you find what you are looking for."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": "What do you think of these restaurants? What do you think?"
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you out."
+    },
+    "13": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    }
+  },
+  "SNG01884": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a place to stay."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think it would be a good place to stay?"
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG01432": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that. I can help you with that."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good idea?"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL0391": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to eat."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to visit."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good deal?"
+    },
+    "11": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    },
+    "13": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL1285": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I have found 10 restaurants in the centre. What do you think?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you have a great time at the hotel."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    }
+  },
+  "SNG0451": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I can help you with that. Would you like a particular type of food?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good choice?"
+    },
+    "5": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant!"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL0509": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a train for you."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to eat."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": " you are welcome.",
+      "mod": "",
+      "end": ""
+    },
+    "19": {
+      "start": "",
+      "mod": "",
+      "end": "Have a great day. I hope you enjoy your meal."
+    }
+  },
+  "PMUL1920": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I have 10 options. Is there a specific city you are looking for?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to stay."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": "I have 10 hotels that meet your criteria. I can narrow that down further depending on which part of town you want to stay in."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good place to stay?"
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "19": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at the event!"
+    },
+    "21": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": " I hope you have a great time in London."
+    }
+  },
+  "PMUL3141": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I can help you find a train that leaves at 7:50 am."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "The address of the Lensfield Hotel is 20 Park Lane and it is located at 20 Park Lane.",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good idea?"
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL2042": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I would be happy to assist you with that."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "You are welcome.",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you enjoy your stay at the hotel."
+    },
+    "15": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL1598": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I found 10 restaurants in the north area. There is a nice restaurant called chinese bistro in the north area."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you have a great time at the restaurant."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at Cambridge."
+    }
+  },
+  "PMUL1867": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I can help you with that. Is there a particular hotel you are looking for?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good place to stay?"
+    },
+    "5": {
+      "start": "Yes, that sounds like a good idea.",
+      "mod": "",
+      "end": " I can help you with that. Do you have a preference?"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to stay."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that one."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think it will be a good deal?"
+    },
+    "19": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "21": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the hotel."
+    }
+  },
+  "MUL0677": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that if you'd like."
+    },
+    "5": {
+      "start": "I can help you with that. The travel time will be from London to Cambridge. The train leaves at 6:40 am and the destination is Cambridge",
+      "mod": "",
+      "end": " Do you think that's a good deal for you?"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " There are so many to choose from. There are so many to choose from."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " There are so many to choose from. What do you think?"
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that if you'd like."
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG02153": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good one for you."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    }
+  },
+  "MUL1489": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "There are 10 restaurants in the centre of town. What do you think?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you have a great time at the restaurant."
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": "I've got you booked for a train departing at 11:15 am and arriving at Cambridge by 11:30 am. Would that work for you?"
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you enjoy your trip."
+    }
+  },
+  "PMUL0129": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " There are a lot of different types of food."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": "Have a great day. I hope you enjoy your stay."
+    }
+  },
+  "PMUL1978": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "Yes, there is a train that leaves at 7:40 am with 0 transfers. Is that okay?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": "There is a train that leaves at 11:40 am and arrives in Cambridge at 11:40 am. Is that correct?"
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I can do that for you."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " i ' m sure you ' ll enjoy your stay."
+    },
+    "11": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": " i ' m sure you ' ll enjoy your stay."
+    }
+  },
+  "SNG0571": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I've found 10 restaurants that might work for you. There's a nice Afghan restaurant called Bahia Restaurant in the west side of town."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find the perfect restaurant for you."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to eat."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG01608": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you have a great time at the restaurant."
+    },
+    "9": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL1763": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a place to stay."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think it's a good place to stay?"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL1202": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " There are a lot of great restaurants in that area."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good choice?"
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": "There are 10 guesthouses with 4 stars. What do you think?"
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to stay. Enjoy your stay."
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": "  If you have any questions, please don't hesitate to contact us."
+    },
+    "19": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "21": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that. You would like a 2 star hotel."
+    },
+    "23": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "25": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL0397": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I have found a train leaving at 7:40 am with 0 transfers. The cost of the ticket is $34."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good deal?"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": "I'd be happy to assist you with that."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL0573": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "There is a train leaving at 10:40 am and arriving at 10:50 am."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": "I think it's a great place to eat."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    }
+  },
+  "SNG01353": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "There are 10 guesthouses with free wifi. What do you think?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " There are 10 hotels with free wifi. What do you think?"
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": "It's a great place to stay if you're looking for a place to stay."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find the best one for you."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " What do you think about that one, actually?"
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at the hotel."
+    }
+  },
+  "PMUL1931": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find the best one for you."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " There are so many to choose from.  What do you think?"
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good place to stay?"
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": "Have a great day. I hope you have a great time."
+    }
+  },
+  "SNG0927": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL1788": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "It's a great place to stay if you're looking for a place to stay."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": "Have a great day. I hope you enjoy your stay."
+    }
+  },
+  "SNG01503": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "Okay, that sounds like a good idea.",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": " I hope you enjoy your trip."
+    }
+  },
+  "SNG01634": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL0566": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find what you're looking for."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": "Do you think it's a good place to eat?"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a train for you."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to stay."
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at the varsity restaurant."
+    },
+    "17": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the varsity restaurant."
+    }
+  },
+  "PMUL3599": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": "It's a great place to visit if you're looking for a place to eat."
+    },
+    "5": {
+      "start": " ok.",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    }
+  },
+  "MUL2206": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I've found 10 hotels with a 4.5 star rating. What do you think?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " There are 5 hotels would you like a certain area?"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I think that would be a great place to stay."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good idea?"
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at the hotel."
+    }
+  },
+  "SNG0940": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to stay."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good place to stay?"
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL2106": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that. I can help you with that."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I can do that for you if you'd like."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good place to stay?"
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good place to stay?"
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "19": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "21": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "23": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the hotel."
+    }
+  },
+  "PMUL3424": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "Do you think it would be a good place to eat?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good one for you."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think it's a good idea to book this train?"
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG0733": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "There are 10 restaurants in town. How about Bahia Restaurant & Bar?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL1569": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good idea?"
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to eat."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " That sounds like a good choice."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that."
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good choice?"
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "19": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    },
+    "21": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL1593": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": " you are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL4186": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "They have a great selection of Italian, American and other food."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " It is a great place to stay if you are looking for a place to stay."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you enjoy your stay."
+    },
+    "15": {
+      "start": " you are welcome.",
+      "mod": "",
+      "end": " I hope you enjoy your stay at the Cambridge Belfry."
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL0006": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": "  If you are looking for a cheap place to eat, this is the place to go."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that if you would like."
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": " i ' m sure you ' ll enjoy your meal."
+    },
+    "17": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG01692": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to stay."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": "It has a rating of 4.3 and is located in the south."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that. What do you think?"
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": "Have a great day. I hope you enjoy your stay."
+    }
+  },
+  "MUL2130": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " It should be a guesthouse and have free wifi."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": "There is a guesthouse at the el shaddai in Caimbridge that has free wifi."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a train for you."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good one for you."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you with that one, please."
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you enjoy your stay at the El Shaddai."
+    },
+    "15": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": " I hope you enjoy your stay at the El Shaddi."
+    }
+  },
+  "MUL2193": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to stay if you're looking for a place to stay."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a great place to stay."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think it's a good place to stay?"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you out."
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at the event."
+    }
+  },
+  "MUL1661": {
+    "1": {
+      "start": "Sure. Where are you departing from?",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to go."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "You are welcome.",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to eat."
+    },
+    "13": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    }
+  },
+  "SNG0617": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " There are so many to choose from. What do you think?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": " ok.",
+      "mod": "",
+      "end": " I'm glad I could help you with anything."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    }
+  },
+  "PMUL1623": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "I can help you find a train for you."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to visit if you're looking for a place to stay."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": "I have found 1 moderately priced guesthouse that meets your criteria. It is located in Broxbourne."
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG0098": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL0798": {
+    "1": {
+      "start": "What kind of hotel would you like to stay in?",
+      "mod": "",
+      "end": "I can help you find a good one for you."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to stay if you're looking for a place to stay."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to stay if you're looking for a place to stay."
+    },
+    "7": {
+      "start": "I can help you with that. How many tickets do you need?",
+      "mod": "",
+      "end": " I can help you find a good one for you."
+    },
+    "9": {
+      "start": "Okay, that sounds like a good idea.",
+      "mod": "",
+      "end": " I can help you find a good one for you."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good deal?"
+    },
+    "13": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL0073": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " It is a great place to stay and is a great place to visit."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL4616": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "It's a great place to get a bite to eat."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": "I can help you find a train for you."
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you enjoy your stay at cocum."
+    },
+    "11": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL1697": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "There is a train from cambridge to kings lynn departing at 7:40 am. It has 0 transfers and costs $43."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": "There are 10 restaurants in kings lynn, what do you think?"
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": "There is a nice restaurant in kings lynn at 11:30 pm. Would that be okay?"
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "19": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "21": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "23": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "25": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    }
+  },
+  "PMUL4842": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "There are 10 restaurants in the centre that serve oriental food. What do you think?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": "It's in the cheap price range and it's a great place to eat."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you have a great time at the restaurant."
+    },
+    "7": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a place to stay."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good place to stay?"
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": "Would you like to book a table at el shaddai?"
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "19": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": " I hope you enjoy your stay at El Shaddai."
+    },
+    "21": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you enjoy your stay at El Shaddai."
+    }
+  },
+  "PMUL0090": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a hotel for you."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " It is a great place to stay."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": "I hope you have a great time at the hotel."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a place to dine."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": "  If you are looking for a place to dine, this is the place to go."
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": "I hope you have a great time at the restaurant."
+    }
+  },
+  "PMUL1812": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a bus for you."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a place to stay."
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": " you are welcome.",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "PMUL0713": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": "Where will you be departing from and arriving at?"
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find what you are looking for."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant."
+    },
+    "15": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG0456": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to eat."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "7": {
+      "start": " ok.",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": " you ' re welcome.",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL1514": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to eat."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to eat in centre."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": "Please confirm the following details: Booking a table for 1 at 7:45 pm on March 13th in centre. Is this correct?"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good idea?"
+    },
+    "13": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "15": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "17": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "SNG0722": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " It's a great place to go if you're looking for a place to eat."
+    },
+    "3": {
+      "start": " That sounds like a lot of fun.",
+      "mod": "",
+      "end": ""
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    }
+  },
+  "MUL1491": {
+    "1": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a train to go there."
+    },
+    "3": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find the best one for you."
+    },
+    "5": {
+      "start": "",
+      "mod": "",
+      "end": " Do you think that would be a good idea?"
+    },
+    "7": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to eat."
+    },
+    "9": {
+      "start": "",
+      "mod": "",
+      "end": " I can help you find a good place to eat."
+    },
+    "11": {
+      "start": "",
+      "mod": "",
+      "end": ""
+    },
+    "13": {
+      "start": " You are welcome.",
+      "mod": "",
+      "end": " I hope you have a great time at the restaurant!"
+    }
+  }
+}
