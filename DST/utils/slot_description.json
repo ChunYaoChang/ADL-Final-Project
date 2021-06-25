@@ -1,0 +1,3594 @@
+{
+    "banks_1-account_type": {
+        "values": [
+            "checking",
+            "savings"
+        ],
+        "description_human": "the account type of the user",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "banks_1-recipient_account_type": {
+        "values": [
+            "checking",
+            "savings"
+        ],
+        "description_human": "the account type of the recipient whom the user is transfering money to",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "banks_1-balance": {
+        "values": [],
+        "description_human": "the amount of money held in a bank account at a given time",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "banks_1-amount": {
+        "values": [],
+        "description_human": "the amount of money to transfer",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "banks_1-recipient_account_name": {
+        "values": [],
+        "description_human": "the account name of the recipient who is to receive the transfered money",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_1-from_location": {
+        "values": [],
+        "description_human": "city where bus is leaving from",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_1-to_location": {
+        "values": [],
+        "description_human": "city where bus is going to",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_1-from_station": {
+        "values": [],
+        "description_human": "station where bus is leaving from",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_1-to_station": {
+        "values": [],
+        "description_human": "station where bus is going to",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_1-leaving_date": {
+        "values": [],
+        "description_human": "date of bus leaving for journey",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_1-leaving_time": {
+        "values": [],
+        "description_human": "time of bus leaving for journey",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_1-fare": {
+        "values": [],
+        "description_human": "fare per ticket for journey",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_1-travelers": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "description_human": "number of travelers for journey",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_1-transfers": {
+        "values": [
+            "0",
+            "1"
+        ],
+        "description_human": "number of transfers in journey",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_2-origin": {
+        "values": [],
+        "description_human": "origin city for journey",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_2-destination": {
+        "values": [],
+        "description_human": "destination city for journey",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_2-origin_station_name": {
+        "values": [],
+        "description_human": "name of the bus terminus at the origin",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_2-destination_station_name": {
+        "values": [],
+        "description_human": "name of the bus terminus at the destination",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_2-departure_date": {
+        "values": [],
+        "description_human": "date of bus departure",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_2-price": {
+        "values": [],
+        "description_human": "price per ticket of the itinerary",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_2-departure_time": {
+        "values": [],
+        "description_human": "time of bus departure",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_2-group_size": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "description_human": "size of group for the booking",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_2-fare_type": {
+        "values": [
+            "Economy",
+            "Economy extra",
+            "Flexible"
+        ],
+        "description_human": "type of fare for the booking",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "calendar_1-event_date": {
+        "values": [],
+        "description_human": "date of event or for checking availability",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "calendar_1-event_time": {
+        "values": [],
+        "description_human": "start time of event",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "calendar_1-event_location": {
+        "values": [],
+        "description_human": "location of event",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "calendar_1-event_name": {
+        "values": [],
+        "description_human": "title of event",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "calendar_1-available_start_time": {
+        "values": [],
+        "description_human": "starting time of available time slot",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "calendar_1-available_end_time": {
+        "values": [],
+        "description_human": "ending time of available time slot",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_1-category": {
+        "values": [
+            "Music",
+            "Sports"
+        ],
+        "description_human": "type of event",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_1-subcategory": {
+        "values": [],
+        "description_human": "subcategory of event, either a music genre or sport name",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_1-event_name": {
+        "values": [],
+        "description_human": "name of event",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_1-date": {
+        "values": [],
+        "description_human": "date of occurrence of event",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_1-time": {
+        "values": [],
+        "description_human": "time when the event is scheduled to start",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_1-number_of_seats": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "description_human": "number of seats to find event tickets for",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_1-city_of_event": {
+        "values": [],
+        "description_human": "city where event is happening",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_1-event_location": {
+        "values": [],
+        "description_human": "name of event location",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_1-address_of_location": {
+        "values": [],
+        "description_human": "street address of event location",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_2-event_type": {
+        "values": [
+            "Music",
+            "Sports"
+        ],
+        "description_human": "type of event",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_2-category": {
+        "values": [],
+        "description_human": "the sport or music subcategory",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_2-event_name": {
+        "values": [],
+        "description_human": "name of match or artist for event",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_2-date": {
+        "values": [],
+        "description_human": "date of event",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_2-time": {
+        "values": [],
+        "description_human": "starting time for event",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_2-number_of_tickets": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "description_human": "number of tickets to buy for event",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_2-city": {
+        "values": [],
+        "description_human": "city where the event is taking place",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_2-venue": {
+        "values": [],
+        "description_human": "exact venue of event",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_2-venue_address": {
+        "values": [],
+        "description_human": "address of event venue",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_1-passengers": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "description_human": "number of passengers in the booking",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_1-seating_class": {
+        "values": [
+            "Economy",
+            "Premium Economy",
+            "Business",
+            "First Class"
+        ],
+        "description_human": "seating class for the booking",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_1-origin_city": {
+        "values": [],
+        "description_human": "starting city for the trip",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_1-destination_city": {
+        "values": [],
+        "description_human": "ending city for the trip",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_1-origin_airport": {
+        "values": [],
+        "description_human": "airport at the starting city for the trip",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_1-destination_airport": {
+        "values": [],
+        "description_human": "airport at the ending city for the trip",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_1-departure_date": {
+        "values": [],
+        "description_human": "start date for the trip",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_1-return_date": {
+        "values": [],
+        "description_human": "date of the return flight",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_1-number_stops": {
+        "values": [
+            "0",
+            "1"
+        ],
+        "description_human": "number of layovers in the flight",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_1-outbound_departure_time": {
+        "values": [],
+        "description_human": "departure time for the outbound leg flight",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_1-outbound_arrival_time": {
+        "values": [],
+        "description_human": "arrival time for the outbound leg flight",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_1-inbound_arrival_time": {
+        "values": [],
+        "description_human": "arrival time for the return leg flight",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_1-inbound_departure_time": {
+        "values": [],
+        "description_human": "departure time for the return leg flight",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_1-price": {
+        "values": [],
+        "description_human": "price of the booking per passenger",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_1-refundable": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "whether the booking is refundable or not",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_1-airlines": {
+        "values": [
+            "United Airlines",
+            "American Airlines",
+            "Delta Airlines",
+            "Southwest Airlines",
+            "Alaska Airlines",
+            "British Airways",
+            "Air Canada",
+            "Air France"
+        ],
+        "description_human": "name of airline",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_2-passengers": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "description_human": "number of passengers to book tickets for",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_2-seating_class": {
+        "values": [
+            "Economy",
+            "Premium Economy",
+            "Business",
+            "First Class"
+        ],
+        "description_human": "seating class for the flight tickets",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_2-origin": {
+        "values": [],
+        "description_human": "city of origin for the flight",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_2-destination": {
+        "values": [],
+        "description_human": "city of destination for the flight",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_2-origin_airport": {
+        "values": [],
+        "description_human": "airport where the flight is departing from",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_2-destination_airport": {
+        "values": [],
+        "description_human": "airport where the flight is arriving to",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_2-departure_date": {
+        "values": [],
+        "description_human": "date of departure flight on the ticket",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_2-return_date": {
+        "values": [],
+        "description_human": "date of return flight on the ticket",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_2-number_stops": {
+        "values": [
+            "0",
+            "1"
+        ],
+        "description_human": "number of stopovers made by the flight",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_2-outbound_departure_time": {
+        "values": [],
+        "description_human": "departure time of the origin-destination flight",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_2-outbound_arrival_time": {
+        "values": [],
+        "description_human": "arrival time of the origin-destination flight",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_2-inbound_arrival_time": {
+        "values": [],
+        "description_human": "arrival time of the destination-origin flight",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_2-inbound_departure_time": {
+        "values": [],
+        "description_human": "departure time of the destination-origin flight",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_2-fare": {
+        "values": [],
+        "description_human": "ticket fare for each passenger",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_2-is_redeye": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "boolean flag indicating whether the flight is a red-eye flight",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_2-airlines": {
+        "values": [
+            "United Airlines",
+            "American Airlines",
+            "Delta Airlines",
+            "Southwest Airlines",
+            "Alaska Airlines",
+            "British Airways",
+            "Air Canada",
+            "Air France"
+        ],
+        "description_human": "name of the airline to book with",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_1-area": {
+        "values": [],
+        "description_human": "city where the apartment is located",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_1-address": {
+        "values": [],
+        "description_human": "address of the apartment",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_1-property_name": {
+        "values": [],
+        "description_human": "name of the apartment",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_1-phone_number": {
+        "values": [],
+        "description_human": "phone number of the apartment",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_1-furnished": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "boolean flag indicating if the property is furnished",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_1-pets_allowed": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "boolean flag indicating if pets are allowed",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_1-rent": {
+        "values": [],
+        "description_human": "rent per month of the apartment",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_1-visit_date": {
+        "values": [],
+        "description_human": "date for the visit to the apartment",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_1-number_of_beds": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "description_human": "number of bed rooms",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_1-number_of_baths": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "description_human": "number of baths in the apartment",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_1-destination": {
+        "values": [],
+        "description_human": "location of the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_1-number_of_rooms": {
+        "values": [
+            "1",
+            "2",
+            "3"
+        ],
+        "description_human": "number of rooms in the reservation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_1-check_in_date": {
+        "values": [],
+        "description_human": "start date for the reservation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_1-number_of_days": {
+        "values": [],
+        "description_human": "number of days in the reservation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_1-star_rating": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "description_human": "star rating of the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_1-hotel_name": {
+        "values": [],
+        "description_human": "name of the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_1-street_address": {
+        "values": [],
+        "description_human": "address of the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_1-phone_number": {
+        "values": [],
+        "description_human": "phone number of the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_1-price_per_night": {
+        "values": [],
+        "description_human": "price per night for the reservation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_1-has_wifi": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "boolean flag indicating if the hotel has wifi",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_2-where_to": {
+        "values": [],
+        "description_human": "location of the house",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_2-number_of_adults": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "description_human": "number of people for the reservation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_2-check_in_date": {
+        "values": [],
+        "description_human": "start date for the reservation or to find the house",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_2-check_out_date": {
+        "values": [],
+        "description_human": "end date for the reservation or to find the house",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_2-rating": {
+        "values": [],
+        "description_human": "review rating of the house",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_2-address": {
+        "values": [],
+        "description_human": "address of the house",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_2-phone_number": {
+        "values": [],
+        "description_human": "phone number of the house",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_2-total_price": {
+        "values": [],
+        "description_human": "price per night of the house",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_2-has_laundry_service": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "boolean flag indicating if the house has laundry service",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_3-location": {
+        "values": [],
+        "description_human": "location of the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_3-number_of_rooms": {
+        "values": [
+            "1",
+            "2",
+            "3"
+        ],
+        "description_human": "number of rooms to book",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_3-check_in_date": {
+        "values": [],
+        "description_human": "start date for the hotel reservation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_3-check_out_date": {
+        "values": [],
+        "description_human": "end date for the hotel reservation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_3-average_rating": {
+        "values": [],
+        "description_human": "average review rating for the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_3-hotel_name": {
+        "values": [],
+        "description_human": "name of the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_3-street_address": {
+        "values": [],
+        "description_human": "address of the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_3-phone_number": {
+        "values": [],
+        "description_human": "phone number of the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_3-price": {
+        "values": [],
+        "description_human": "total price for the stay",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_3-pets_welcome": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "boolean flag indicating if pets are allowed in the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "media_1-title": {
+        "values": [],
+        "description_human": "title of the movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "media_1-genre": {
+        "values": [],
+        "description_human": "genre of the movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "media_1-subtitles": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "boolean flag indicating if subtitles are desired for this movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "media_1-directed_by": {
+        "values": [],
+        "description_human": "name of the director of the movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_1-price": {
+        "values": [],
+        "description_human": "price per ticket",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_1-number_of_tickets": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "description_human": "number of the movie tickets to be purchased",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_1-show_type": {
+        "values": [
+            "regular",
+            "3d",
+            "imax"
+        ],
+        "description_human": "type of show",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_1-theater_name": {
+        "values": [],
+        "description_human": "name of the theatre",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_1-show_time": {
+        "values": [],
+        "description_human": "time of the show",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_1-show_date": {
+        "values": [],
+        "description_human": "date of the show",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_1-genre": {
+        "values": [],
+        "description_human": "genre of the movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_1-street_address": {
+        "values": [],
+        "description_human": "address of the theatre",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_1-location": {
+        "values": [],
+        "description_human": "city where the theatre is located",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_1-movie_name": {
+        "values": [],
+        "description_human": "name of the movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "music_1-song_name": {
+        "values": [],
+        "description_human": "name of the song",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "music_1-artist": {
+        "values": [],
+        "description_human": "artist who performed the song",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "music_1-album": {
+        "values": [],
+        "description_human": "album the song belongs to",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "music_1-genre": {
+        "values": [],
+        "description_human": "genre of the song",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "music_1-year": {
+        "values": [
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019"
+        ],
+        "description_human": "year in which the song was released",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "music_1-playback_device": {
+        "values": [
+            "TV",
+            "Kitchen speaker",
+            "Bedroom speaker"
+        ],
+        "description_human": "playback device on which the song is to be played",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "music_2-song_name": {
+        "values": [],
+        "description_human": "name of the song",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "music_2-artist": {
+        "values": [],
+        "description_human": "name of the artist the song is performed by",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "music_2-album": {
+        "values": [],
+        "description_human": "album the song belongs to",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "music_2-genre": {
+        "values": [],
+        "description_human": "genre of the song",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "music_2-playback_device": {
+        "values": [
+            "TV",
+            "kitchen speaker",
+            "bedroom speaker"
+        ],
+        "description_human": "playback device on which the song is to be played",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_1-type": {
+        "values": [
+            "Compact",
+            "Standard",
+            "Full-size"
+        ],
+        "description_human": "category to which rental car belongs",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_1-car_name": {
+        "values": [],
+        "description_human": "model name of rental car",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_1-pickup_location": {
+        "values": [],
+        "description_human": "location of rental car pickup",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_1-pickup_date": {
+        "values": [],
+        "description_human": "date of rental car pickup",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_1-pickup_time": {
+        "values": [],
+        "description_human": "time of rental car pickup",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_1-pickup_city": {
+        "values": [],
+        "description_human": "city to pick up the rental car",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_1-dropoff_date": {
+        "values": [],
+        "description_human": "date of rental car drop-off",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_1-total_price": {
+        "values": [],
+        "description_human": "total price of car rental",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_2-car_type": {
+        "values": [
+            "Compact",
+            "Standard",
+            "Full-size"
+        ],
+        "description_human": "type of car for rental",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_2-car_name": {
+        "values": [],
+        "description_human": "name of car model",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_2-pickup_location": {
+        "values": [],
+        "description_human": "pickup location for car rental",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_2-pickup_date": {
+        "values": [],
+        "description_human": "date of pickup for car rental",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_2-pickup_time": {
+        "values": [],
+        "description_human": "time of pickup for car rental",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_2-pickup_city": {
+        "values": [],
+        "description_human": "city in which to pick up rental car",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_2-dropoff_date": {
+        "values": [],
+        "description_human": "end date of car rental reservation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_2-total_price": {
+        "values": [],
+        "description_human": "total price of rental reservation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_1-restaurant_name": {
+        "values": [],
+        "description_human": "name of the restaurant",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_1-date": {
+        "values": [],
+        "description_human": "date for the reservation or to find availability",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_1-time": {
+        "values": [],
+        "description_human": "time for the reservation or to find availability",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_1-serves_alcohol": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "boolean flag indicating if the restaurant serves alcohol",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_1-has_live_music": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "boolean flag indicating if the restaurant has live music",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_1-phone_number": {
+        "values": [],
+        "description_human": "phone number of the restaurant",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_1-street_address": {
+        "values": [],
+        "description_human": "address of the restaurant",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_1-party_size": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "description_human": "party size for a reservation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_1-price_range": {
+        "values": [
+            "inexpensive",
+            "moderate",
+            "expensive",
+            "very expensive"
+        ],
+        "description_human": "price range for the restaurant",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_1-city": {
+        "values": [],
+        "description_human": "city in which the restaurant is located",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_1-cuisine": {
+        "values": [
+            "Mexican",
+            "Chinese",
+            "Indian",
+            "American",
+            "Italian"
+        ],
+        "description_human": "cuisine of food served in the restaurant",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "ridesharing_1-destination": {
+        "values": [],
+        "description_human": "destination for taxi ride",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "ridesharing_1-shared_ride": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "boolean flag whether ride is shared with other passengers",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "ridesharing_1-ride_fare": {
+        "values": [],
+        "description_human": "total fare for taxi ride",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "ridesharing_1-approximate_ride_duration": {
+        "values": [],
+        "description_human": "approximate duration of ride to the destination",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "ridesharing_1-number_of_riders": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "description_human": "number of riders to call taxi for",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "ridesharing_2-destination": {
+        "values": [],
+        "description_human": "destination address or location for cab",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "ridesharing_2-ride_type": {
+        "values": [
+            "Pool",
+            "Regular",
+            "Luxury"
+        ],
+        "description_human": "type of cab ride",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "ridesharing_2-ride_fare": {
+        "values": [],
+        "description_human": "total fare for cab ride",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "ridesharing_2-wait_time": {
+        "values": [],
+        "description_human": "expected waiting time for pick-up by cab",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "ridesharing_2-number_of_seats": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "description_human": "number of seats to reserve in the cab",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_1-stylist_name": {
+        "values": [],
+        "description_human": "name of the hair stylist/salon",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_1-phone_number": {
+        "values": [],
+        "description_human": "phone number of the stylist/salon",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_1-average_rating": {
+        "values": [],
+        "description_human": "average review rating for the stylist/salon",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_1-is_unisex": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "boolean flag indicating if the salon is unisex",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_1-street_address": {
+        "values": [],
+        "description_human": "address of the stylist/salon",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_1-city": {
+        "values": [],
+        "description_human": "city where the salon is located",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_1-appointment_date": {
+        "values": [],
+        "description_human": "date for the appointment",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_1-appointment_time": {
+        "values": [],
+        "description_human": "time of the appointment",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_2-dentist_name": {
+        "values": [],
+        "description_human": "name of the dentist",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_2-phone_number": {
+        "values": [],
+        "description_human": "phone number of the dentist",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_2-address": {
+        "values": [],
+        "description_human": "address of the dentist",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_2-city": {
+        "values": [],
+        "description_human": "city where the dentist is located",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_2-appointment_date": {
+        "values": [],
+        "description_human": "date for the appointment",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_2-appointment_time": {
+        "values": [],
+        "description_human": "time for the appointment",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_2-offers_cosmetic_services": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "boolean flag indicating if the dentist offers cosmetic services",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_3-doctor_name": {
+        "values": [],
+        "description_human": "name of the doctor or the medical practice",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_3-phone_number": {
+        "values": [],
+        "description_human": "contact number for the doctor or the medical practice",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_3-average_rating": {
+        "values": [],
+        "description_human": "average review rating of the doctor",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_3-street_address": {
+        "values": [],
+        "description_human": "address of the doctor",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_3-city": {
+        "values": [],
+        "description_human": "city where the doctor is located",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_3-appointment_date": {
+        "values": [],
+        "description_human": "date for scheduling the appointment with the doctor",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_3-appointment_time": {
+        "values": [],
+        "description_human": "time for the appointment with the doctor",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_3-type": {
+        "values": [
+            "Gynecologist",
+            "ENT Specialist",
+            "Ophthalmologist",
+            "General Practitioner",
+            "Dermatologist"
+        ],
+        "description_human": "speciality of the doctor",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "travel_1-location": {
+        "values": [],
+        "description_human": "city or town where the attraction is located",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "travel_1-attraction_name": {
+        "values": [],
+        "description_human": "common name of the attraction",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "travel_1-category": {
+        "values": [
+            "Place of Worship",
+            "Theme Park",
+            "Museum",
+            "Historical Landmark",
+            "Park",
+            "Tourist Attraction",
+            "Sports Venue",
+            "Shopping Area",
+            "Performing Arts Venue",
+            "Nature Preserve"
+        ],
+        "description_human": "category to which the attraction belongs",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "travel_1-phone_number": {
+        "values": [],
+        "description_human": "phone number to contact the attraction",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "travel_1-free_entry": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "boolean flag indicating whether entrance to attraction is free",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "travel_1-good_for_kids": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "boolean flag indicating whether attraction is good for to take kids to",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "weather_1-precipitation": {
+        "values": [],
+        "description_human": "the possibility of rain or snow in percentage",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "weather_1-humidity": {
+        "values": [],
+        "description_human": "percentage humidity",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "weather_1-wind": {
+        "values": [],
+        "description_human": "wind speed in miles per hour",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "weather_1-temperature": {
+        "values": [],
+        "description_human": "temperature in fahrenheit",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "weather_1-city": {
+        "values": [],
+        "description_human": "name of the city",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "weather_1-date": {
+        "values": [],
+        "description_human": "date for the weather",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "alarm_1-alarm_time": {
+        "values": [],
+        "description_human": "time of the alarm",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "alarm_1-alarm_name": {
+        "values": [],
+        "description_human": "name of the alarm",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "alarm_1-new_alarm_time": {
+        "values": [],
+        "description_human": "time to set for the new alarm",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "alarm_1-new_alarm_name": {
+        "values": [],
+        "description_human": "name to use for the new alarm",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "banks_2-account_type": {
+        "values": [
+            "checking",
+            "savings"
+        ],
+        "description_human": "the user's account type",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "banks_2-recipient_account_type": {
+        "values": [
+            "checking",
+            "savings"
+        ],
+        "description_human": "the account type of the recipient to transfer the money to",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "banks_2-account_balance": {
+        "values": [],
+        "description_human": "the balance in the specified account",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "banks_2-transfer_amount": {
+        "values": [],
+        "description_human": "the amount of money to transfer",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "banks_2-recipient_name": {
+        "values": [],
+        "description_human": "the name of the recipient to transfer the money to",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "banks_2-transfer_time": {
+        "values": [],
+        "description_human": "number of days for the transfer to go through",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_3-passengers": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "description_human": "number of passengers to find flight seats for",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_3-flight_class": {
+        "values": [
+            "Economy",
+            "Premium Economy",
+            "Business",
+            "First Class"
+        ],
+        "description_human": "fare class of flight booking",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_3-origin_city": {
+        "values": [],
+        "description_human": "city in which the journey originates",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_3-destination_city": {
+        "values": [],
+        "description_human": "city in which the journey ends",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_3-origin_airport_name": {
+        "values": [],
+        "description_human": "number of the airport flying out from",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_3-destination_airport_name": {
+        "values": [],
+        "description_human": "number of the airport flying to",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_3-departure_date": {
+        "values": [],
+        "description_human": "date of departure flight",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_3-return_date": {
+        "values": [],
+        "description_human": "date of return flight",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_3-number_stops": {
+        "values": [
+            "0",
+            "1"
+        ],
+        "description_human": "number of stops in the itinerary",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_3-outbound_departure_time": {
+        "values": [],
+        "description_human": "local time of departure of flight from origin to destination",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_3-outbound_arrival_time": {
+        "values": [],
+        "description_human": "local time of arrival of flight from origin to destination",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_3-inbound_arrival_time": {
+        "values": [],
+        "description_human": "local time of arrival of flight from destination to origin",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_3-inbound_departure_time": {
+        "values": [],
+        "description_human": "local time of departure of flight from destination to origin",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_3-price": {
+        "values": [],
+        "description_human": "price per passenger of the itinerary",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_3-number_checked_bags": {
+        "values": [
+            "0",
+            "1",
+            "2"
+        ],
+        "description_human": "number of bags to check in",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_3-airlines": {
+        "values": [
+            "United Airlines",
+            "American Airlines",
+            "Delta Airlines",
+            "Southwest Airlines",
+            "Alaska Airlines",
+            "British Airways",
+            "Air Canada",
+            "Air France"
+        ],
+        "description_human": "name of airline operating the flight",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_3-arrives_next_day": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "whether the flight arrives the next day",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_4-location": {
+        "values": [],
+        "description_human": "city or town where the accommodation is located",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_4-number_of_rooms": {
+        "values": [
+            "1",
+            "2",
+            "3"
+        ],
+        "description_human": "number of rooms to reserve",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_4-check_in_date": {
+        "values": [],
+        "description_human": "check in date for reservation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_4-stay_length": {
+        "values": [],
+        "description_human": "length of stay in days",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_4-star_rating": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "description_human": "star rating of the accommodation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_4-place_name": {
+        "values": [],
+        "description_human": "name of the accommodation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_4-street_address": {
+        "values": [],
+        "description_human": "street address of the accommodation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_4-phone_number": {
+        "values": [],
+        "description_human": "contact phone number of the accommodation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_4-price_per_night": {
+        "values": [],
+        "description_human": "price per night for the stay",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotels_4-smoking_allowed": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "whether or not smoking is allowed inside the place",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "media_2-movie_name": {
+        "values": [],
+        "description_human": "name of the movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "media_2-genre": {
+        "values": [],
+        "description_human": "main genre of the movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "media_2-subtitle_language": {
+        "values": [
+            "None",
+            "English",
+            "Mandarin",
+            "Spanish"
+        ],
+        "description_human": "language to use for subtitles (or none for no subtitles)",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "media_2-director": {
+        "values": [],
+        "description_human": "name of the director of the movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "media_2-actors": {
+        "values": [],
+        "description_human": "name of an actor starring in the movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "media_2-price": {
+        "values": [],
+        "description_human": "cost of renting movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_2-title": {
+        "values": [],
+        "description_human": "title for movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_2-genre": {
+        "values": [],
+        "description_human": "genre of the movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_2-aggregate_rating": {
+        "values": [],
+        "description_human": "aggregate user rating for movie, scale of 10",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_2-starring": {
+        "values": [],
+        "description_human": "name of actor starring in movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_2-director": {
+        "values": [],
+        "description_human": "name of director of the movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_2-restaurant_name": {
+        "values": [],
+        "description_human": "name of the restaurant",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_2-date": {
+        "values": [],
+        "description_human": "tentative date of restaurant reservation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_2-time": {
+        "values": [],
+        "description_human": "tentative time of restaurant reservation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_2-has_seating_outdoors": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "whether the restaurant has outdoor seating available",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_2-has_vegetarian_options": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "whether the restaurant has adequate vegetarian options",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_2-phone_number": {
+        "values": [],
+        "description_human": "phone number to contact restaurant",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_2-rating": {
+        "values": [],
+        "description_human": "average user rating for restaurant on a scale of 5",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_2-address": {
+        "values": [],
+        "description_human": "address of restaurant",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_2-number_of_seats": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "description_human": "number of seats to reserve at the restaurant",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_2-price_range": {
+        "values": [
+            "cheap",
+            "moderate",
+            "pricey",
+            "ultra high-end"
+        ],
+        "description_human": "price range for the restaurant",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_2-location": {
+        "values": [],
+        "description_human": "city where the restaurant is located",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurants_2-category": {
+        "values": [],
+        "description_human": "the category of food offered by the restaurant",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_4-therapist_name": {
+        "values": [],
+        "description_human": "name of the therapist",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_4-phone_number": {
+        "values": [],
+        "description_human": "contact number of the therapist",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_4-address": {
+        "values": [],
+        "description_human": "address of the therapist",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_4-city": {
+        "values": [],
+        "description_human": "area where user wants to search for a therapist",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_4-appointment_date": {
+        "values": [],
+        "description_human": "date of the appointment",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_4-appointment_time": {
+        "values": [],
+        "description_human": "time of the appointment",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "services_4-type": {
+        "values": [
+            "Psychologist",
+            "Family Counselor",
+            "Psychiatrist"
+        ],
+        "description_human": "type of the therapist",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_3-from_city": {
+        "values": [],
+        "description_human": "the city to depart from",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_3-to_city": {
+        "values": [],
+        "description_human": "the destination city of the trip",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_3-from_station": {
+        "values": [],
+        "description_human": "name of station of departure",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_3-to_station": {
+        "values": [],
+        "description_human": "name of station of arrival",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_3-departure_date": {
+        "values": [],
+        "description_human": "the date of departure",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_3-departure_time": {
+        "values": [],
+        "description_human": "the time of departure",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_3-price": {
+        "values": [],
+        "description_human": "ticket price per passenger",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_3-additional_luggage": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "whether to carry excess baggage in the bus",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_3-num_passengers": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "description_human": "the number of tickets for the trip",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "buses_3-category": {
+        "values": [
+            "direct",
+            "one-stop"
+        ],
+        "description_human": "how many stops the route has",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_3-event_type": {
+        "values": [
+            "Music",
+            "Theater"
+        ],
+        "description_human": "type of cultural event",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_3-event_name": {
+        "values": [],
+        "description_human": "name of artist or play",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_3-date": {
+        "values": [],
+        "description_human": "date of event",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_3-time": {
+        "values": [],
+        "description_human": "start time of event",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_3-number_of_tickets": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "description_human": "number of tickets to reserve for the event",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_3-price_per_ticket": {
+        "values": [],
+        "description_human": "price of each ticket",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_3-city": {
+        "values": [],
+        "description_human": "city where the event is taking place",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_3-venue": {
+        "values": [],
+        "description_human": "exact venue of event",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "events_3-venue_address": {
+        "values": [],
+        "description_human": "street address of event venue",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_4-number_of_tickets": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "description_human": "the number of flight tickets for the trip",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_4-seating_class": {
+        "values": [
+            "Economy",
+            "Premium Economy",
+            "Business"
+        ],
+        "description_human": "the cabin seat option",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_4-origin_airport": {
+        "values": [],
+        "description_human": "the name of the airport or city to depart from",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_4-destination_airport": {
+        "values": [],
+        "description_human": "the name of the airport or city to arrive at",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_4-departure_date": {
+        "values": [],
+        "description_human": "start date of the trip",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_4-return_date": {
+        "values": [],
+        "description_human": "end date of the trip",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_4-is_nonstop": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "whether the flight is a direct one",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_4-outbound_departure_time": {
+        "values": [],
+        "description_human": "departure time of the flight flying to the destination",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_4-outbound_arrival_time": {
+        "values": [],
+        "description_human": "arrival time of the flight flying to the destination",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_4-inbound_arrival_time": {
+        "values": [],
+        "description_human": "arrival time of the flight coming back from the trip",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_4-inbound_departure_time": {
+        "values": [],
+        "description_human": "departure time of the flight coming back from the trip",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_4-price": {
+        "values": [],
+        "description_human": "the total cost of the flight tickets",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "flights_4-airlines": {
+        "values": [
+            "United Airlines",
+            "American Airlines",
+            "Delta Airlines",
+            "Southwest Airlines",
+            "Alaska Airlines",
+            "British Airways",
+            "Air Canada",
+            "Air France",
+            "South African Airways",
+            "LOT Polish Airlines",
+            "LATAM Brasil"
+        ],
+        "description_human": "the company that provides air transport services",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_2-intent": {
+        "values": [
+            "rent",
+            "buy"
+        ],
+        "description_human": "whether to buy or rent a property",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_2-area": {
+        "values": [],
+        "description_human": "city where the property is located",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_2-address": {
+        "values": [],
+        "description_human": "street address of property",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_2-property_name": {
+        "values": [],
+        "description_human": "name of property or apartment complex",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_2-phone_number": {
+        "values": [],
+        "description_human": "contact number of property or apartment complex",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_2-has_garage": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "whether the property has a garage",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_2-in_unit_laundry": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "whether the property has in-unit laundry facilities",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_2-price": {
+        "values": [],
+        "description_human": "sale price or per-month rent of property",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_2-visit_date": {
+        "values": [],
+        "description_human": "date for visit to the property",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_2-number_of_beds": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "description_human": "number of bedrooms in the property",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "homes_2-number_of_baths": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "description_human": "number of bathroom in the property",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "media_3-title": {
+        "values": [],
+        "description_human": "title of the movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "media_3-genre": {
+        "values": [],
+        "description_human": "category of the content",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "media_3-subtitle_language": {
+        "values": [
+            "English",
+            "Spanish",
+            "Hindi",
+            "French"
+        ],
+        "description_human": "language of the subtitles",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "media_3-starring": {
+        "values": [],
+        "description_human": "celebs acting in the movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "messaging_1-location": {
+        "values": [],
+        "description_human": "location to share with contact",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "messaging_1-contact_name": {
+        "values": [],
+        "description_human": "name of contact to send to",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_3-movie_title": {
+        "values": [],
+        "description_human": "name of the movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_3-genre": {
+        "values": [],
+        "description_human": "type of the movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_3-percent_rating": {
+        "values": [],
+        "description_human": "average critic percentage rating",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_3-cast": {
+        "values": [],
+        "description_human": "actors in the movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "movies_3-directed_by": {
+        "values": [],
+        "description_human": "director of the movie",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "music_3-track": {
+        "values": [],
+        "description_human": "name of the song",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "music_3-artist": {
+        "values": [],
+        "description_human": "performer's name",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "music_3-album": {
+        "values": [],
+        "description_human": "collection of the song",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "music_3-genre": {
+        "values": [],
+        "description_human": "type of the music",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "music_3-year": {
+        "values": [
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019"
+        ],
+        "description_human": "year when the song was first released",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "music_3-device": {
+        "values": [
+            "Living room",
+            "Kitchen",
+            "Patio"
+        ],
+        "description_human": "place or name of the media player to play the song selected",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "payment_1-payment_method": {
+        "values": [
+            "app balance",
+            "debit card",
+            "credit card"
+        ],
+        "description_human": "the source of money used for making the payment",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "payment_1-amount": {
+        "values": [],
+        "description_human": "the amount of money to send or request",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "payment_1-receiver": {
+        "values": [],
+        "description_human": "name of the contact or account to make the transaction with",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "payment_1-private_visibility": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "whether the transaction is private or not",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_3-car_type": {
+        "values": [
+            "Hatchback",
+            "Sedan",
+            "SUV"
+        ],
+        "description_human": "type of the car",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_3-car_name": {
+        "values": [],
+        "description_human": "car model",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_3-pickup_location": {
+        "values": [],
+        "description_human": "place to pick up the car",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_3-start_date": {
+        "values": [],
+        "description_human": "the first date to start using the rental car",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_3-pickup_time": {
+        "values": [],
+        "description_human": "time for the pick-up",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_3-city": {
+        "values": [],
+        "description_human": "city where you want to rent the car",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_3-end_date": {
+        "values": [],
+        "description_human": "the date to return the car",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_3-price_per_day": {
+        "values": [],
+        "description_human": "the cost for renting the car per day",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "rentalcars_3-add_insurance": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "whether to purchase insurance",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "trains_1-from": {
+        "values": [],
+        "description_human": "starting city for train journey",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "trains_1-to": {
+        "values": [],
+        "description_human": "ending city for train journey",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "trains_1-from_station": {
+        "values": [],
+        "description_human": "name of station at starting city",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "trains_1-to_station": {
+        "values": [],
+        "description_human": "name of station at ending city",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "trains_1-date_of_journey": {
+        "values": [],
+        "description_human": "date of train journey",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "trains_1-journey_start_time": {
+        "values": [],
+        "description_human": "time of start of train journey",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "trains_1-total": {
+        "values": [],
+        "description_human": "total price of train reservation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "trains_1-number_of_adults": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "description_human": "number of adults to reserve train tickets for",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "trains_1-class": {
+        "values": [
+            "Value",
+            "Flexible",
+            "Business"
+        ],
+        "description_human": "fare class for train reservation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "trains_1-trip_protection": {
+        "values": [
+            "True",
+            "False"
+        ],
+        "description_human": "whether to add trip protection to reservation, for a fee",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotel-hotel-pricerange": {
+        "values": [
+            "expensive",
+            "cheap",
+            "moderate"
+        ],
+        "description_human": "price budget of the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotel-hotel-type": {
+        "values": [
+            "guesthouse",
+            "hotel"
+        ],
+        "description_human": "what is the type of the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotel-hotel-parking": {
+        "values": [
+            "free",
+            "no",
+            "yes"
+        ],
+        "description_human": "whether the hotel has parking",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotel-hotel-bookday": {
+        "values": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday",
+            "sunday"
+        ],
+        "description_human": "day of the hotel booking",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotel-hotel-bookpeople": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "description_human": "number of people for the hotel booking",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotel-hotel-bookstay": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "description_human": "length of stay at the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotel-hotel-stars": {
+        "values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "description_human": "star rating of the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotel-hotel-internet": {
+        "values": [
+            "free",
+            "no",
+            "yes"
+        ],
+        "description_human": "whether the hotel has internet",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotel-hotel-name": {
+        "values": [],
+        "description_human": "name of the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotel-hotel-area": {
+        "values": [
+            "centre",
+            "east",
+            "north",
+            "south",
+            "west"
+        ],
+        "description_human": "area or place of the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotel-hotel-address": {
+        "values": [],
+        "description_human": "address of the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotel-hotel-phone": {
+        "values": [],
+        "description_human": "phone number of the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotel-hotel-postcode": {
+        "values": [],
+        "description_human": "postal code of the hotel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hotel-hotel-ref": {
+        "values": [],
+        "description_human": "reference number of the hotel booking",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "train-train-arriveby": {
+        "values": [],
+        "description_human": "arrival time of the train",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "train-train-departure": {
+        "values": [
+            "birmingham new street",
+            "bishops stortford",
+            "broxbourne",
+            "cambridge",
+            "ely",
+            "kings lynn",
+            "leicester",
+            "london kings cross",
+            "london liverpool street",
+            "norwich",
+            "peterborough",
+            "stansted airport",
+            "stevenage"
+        ],
+        "description_human": "departure location of the train",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "train-train-day": {
+        "values": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday",
+            "sunday"
+        ],
+        "description_human": "day of the train",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "train-train-bookpeople": {
+        "values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "15"
+        ],
+        "description_human": "how many train tickets you need",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "train-train-leaveat": {
+        "values": [],
+        "description_human": "leaving time for the train",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "train-train-destination": {
+        "values": [
+            "birmingham new street",
+            "bishops stortford",
+            "broxbourne",
+            "cambridge",
+            "ely",
+            "kings lynn",
+            "leicester",
+            "london kings cross",
+            "london liverpool street",
+            "norwich",
+            "peterborough",
+            "stansted airport",
+            "stevenage"
+        ],
+        "description_human": "destination of the train",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "train-train-trainid": {
+        "values": [],
+        "description_human": "id of the train",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "train-train-ref": {
+        "values": [],
+        "description_human": "reference number of the train booking",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "train-train-price": {
+        "values": [],
+        "description_human": "price of the train",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "train-train-duration": {
+        "values": [],
+        "description_human": "duration of the travel",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "attraction-attraction-area": {
+        "values": [
+            "centre",
+            "east",
+            "north",
+            "south",
+            "west"
+        ],
+        "description_human": "area to search for attractions",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "attraction-attraction-name": {
+        "values": [],
+        "description_human": "name of the attraction",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "attraction-attraction-type": {
+        "values": [
+            "architecture",
+            "boat",
+            "cinema",
+            "college",
+            "concerthall",
+            "entertainment",
+            "museum",
+            "multiple sports",
+            "nightclub",
+            "park",
+            "swimmingpool",
+            "theatre"
+        ],
+        "description_human": "type of the attraction",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "attraction-attraction-entrancefee": {
+        "values": [],
+        "description_human": "how much is the entrance fee",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "attraction-attraction-openhours": {
+        "values": [],
+        "description_human": "open hours of the attraction",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "attraction-attraction-address": {
+        "values": [],
+        "description_human": "address of the attraction",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "attraction-attraction-phone": {
+        "values": [],
+        "description_human": "phone number of the attraction",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "attraction-attraction-postcode": {
+        "values": [],
+        "description_human": "postal code of the attraction",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurant-restaurant-pricerange": {
+        "values": [
+            "cheap",
+            "expensive",
+            "moderate"
+        ],
+        "description_human": "price budget for the restaurant",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurant-restaurant-area": {
+        "values": [
+            "centre",
+            "east",
+            "north",
+            "south",
+            "west"
+        ],
+        "description_human": "area or place of the restaurant",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurant-restaurant-food": {
+        "values": [],
+        "description_human": "the cuisine of the restaurant you are looking for",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurant-restaurant-name": {
+        "values": [],
+        "description_human": "name of the restaurant",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurant-restaurant-bookday": {
+        "values": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday",
+            "sunday"
+        ],
+        "description_human": "day of the restaurant booking",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurant-restaurant-bookpeople": {
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "description_human": "how many people for the restaurant reservation",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurant-restaurant-booktime": {
+        "values": [],
+        "description_human": "time of the restaurant booking",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurant-restaurant-address": {
+        "values": [],
+        "description_human": "address of the restaurant",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurant-restaurant-phone": {
+        "values": [],
+        "description_human": "phone number of the restaurant",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurant-restaurant-postcode": {
+        "values": [],
+        "description_human": "postal code of the restaurant",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "restaurant-restaurant-ref": {
+        "values": [],
+        "description_human": "reference number of the restaurant booking",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hospital-hospital-department": {
+        "values": [],
+        "description_human": "type of medical care",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hospital-hospital-address": {
+        "values": [],
+        "description_human": "address of the hospital",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hospital-hospital-phone": {
+        "values": [],
+        "description_human": "phone number of the hospital",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "hospital-hospital-postcode": {
+        "values": [],
+        "description_human": "postal code of the hospital",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "taxi-taxi-leaveat": {
+        "values": [],
+        "description_human": "leaving time of taxi",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "taxi-taxi-destination": {
+        "values": [],
+        "description_human": "destination of taxi",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "taxi-taxi-departure": {
+        "values": [],
+        "description_human": "departure location of taxi",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "taxi-taxi-arriveby": {
+        "values": [],
+        "description_human": "arrival time of taxi",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "taxi-taxi-type": {
+        "values": [],
+        "description_human": "car type of the taxi",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "taxi-taxi-phone": {
+        "values": [],
+        "description_human": "phone number of the taxi",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "bus-bus-departure": {
+        "values": [
+            "cambridge"
+        ],
+        "description_human": "departure location of bus",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "bus-bus-destination": {
+        "values": [
+            "london kings cross",
+            "bishops stortford",
+            "cambridge",
+            "kohinoor"
+        ],
+        "description_human": "destination of bus",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "bus-bus-leaveat": {
+        "values": [],
+        "description_human": "leaving time of bus",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "bus-bus-day": {
+        "values": [
+            "wednesday"
+        ],
+        "description_human": "day to use the bus tickets",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "police-police-address": {
+        "values": [],
+        "description_human": "address of the police station",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "police-police-phone": {
+        "values": [],
+        "description_human": "phone number of the police station",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "police-police-postcode": {
+        "values": [],
+        "description_human": "postal code of the police station",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    },
+    "police-police-name": {
+        "values": [
+            "parkside police station"
+        ],
+        "description_human": "name of the police station",
+        "slottype": "none",
+        "naive": "none",
+        "question": "none"
+    }
+}
