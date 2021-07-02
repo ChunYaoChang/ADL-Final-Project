@@ -28,10 +28,10 @@ Go to `config.py` to adjust the parameters.
 
 ```bash
 # test_seen
-python T5.py --mode test --test_type seen --output_path ./seen.json
+python T5.py --mode test --load_from_checkpoint <model_checkpoint_dir> --test_type seen --output_path ./seen.json
 python postprocess.py ./seen.json ./result_seen.json
 
 # test_unseen
-python T5.py --mode test --test_type unseen --output_path ./unseen.json
+python T5.py --mode test --load_from_checkpoint <model_checkpoint_dir> --test_type unseen --output_path ./unseen.json
 python postprocess.py ./unseen.json ./result_unseen.json
 ```
