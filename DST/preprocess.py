@@ -29,8 +29,8 @@ def preprocess_dialog(mode):
                         if 'state' in frame.keys():
                             for slot_name in frame['state']['slot_values']:
                                 for slot_value in frame['state']['slot_values'][slot_name]:
-                                    if(f'{frame["service"].lower()}_{slot_name}') not in turn_example['state']['slot_values']:
-                                        turn_example['state']['slot_values'][f'{frame["service"].lower()}_{slot_name}'] = slot_value.lower()
+                                    if f'{frame["service"].lower()}-{slot_name}' not in turn_example['state']['slot_values']:
+                                        turn_example['state']['slot_values'][f'{frame["service"].lower()}-{slot_name}'] = slot_value.lower()
 
                 turn_example['user'] = dialogue['turns'][0]['utterance'].lower()
                 turns.append(turn_example)
@@ -46,8 +46,8 @@ def preprocess_dialog(mode):
                             if 'state' in frame.keys():
                                 for slot_name in frame['state']['slot_values']:
                                     for slot_value in frame['state']['slot_values'][slot_name]:
-                                        if(f'{frame["service"].lower()}_{slot_name}') not in turn_example['state']['slot_values']:
-                                            turn_example['state']['slot_values'][f'{frame["service"].lower()}_{slot_name}'] = slot_value.lower()
+                                        if f'{frame["service"].lower()}-{slot_name}' not in turn_example['state']['slot_values']:
+                                            turn_example['state']['slot_values'][f'{frame["service"].lower()}-{slot_name}'] = slot_value.lower()
                     turns.append(turn_example)
                 dial_all.append({'dial_id' : dial_id, 'domains' : domains, 'turns' : turns})
 
