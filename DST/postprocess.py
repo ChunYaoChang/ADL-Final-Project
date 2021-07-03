@@ -6,7 +6,7 @@ import sys
 output = {}
 input_path = sys.argv[1]
 output_path = sys.argv[2]
-with open(args.input_path,'r') as f:
+with open(input_path,'r') as f:
     prediction = json.load(f)
     for dial_id in prediction:
         turns = prediction[dial_id]["turns"]

@@ -8,7 +8,7 @@ modes = ['train', 'dev', 'test_seen', 'test_unseen']
 num_files = [138, 20, 16, 5]
 data_length = dict(zip(modes, num_files))
 
-data_path = './data'
+data_path = '../../T5_dst/data'
 output_path = './preprocessed_data'
 ontology_path = './ontology'
 slot_desc_path = './slot_description'
