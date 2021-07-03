@@ -1,4 +1,5 @@
-# Description
+## Descriptions
+Here is the first method we applied in NLG task. We use pretrained Blenderbot to generate additional chit-chat in this method.
 ## Dependencies
 ```
 torch 1.8.0
