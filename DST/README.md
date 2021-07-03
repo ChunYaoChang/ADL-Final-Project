@@ -6,6 +6,10 @@
 pip install -r utils/requirements.txt
 ```
 
+## Data
+
+Please refer to the `README.md` in folder `data`.
+
 ## Preprocess
 
 First put the data into `data`. Then, execute the following command.
