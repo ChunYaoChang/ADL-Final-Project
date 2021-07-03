@@ -23,7 +23,6 @@ def main(
     output_file_path: Path,
     model_checkpoint: str,
     cls_model_checkpoint: str,
-    batch_size: int,
 ):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(device)
@@ -33,9 +32,9 @@ def main(
     begin_model = torch.load(begin_model_path).to(device)
     end_model = torch.load(end_model_path).to(device)
     cls_tokenizer = AutoTokenizer.from_pretrained(cls_model_checkpoint)
-    utterances =  [[(data['turns'][idx]['utterance'], data['turns'][idx+1]['utterance']) for idx in range(0,len(data['turns']),2)] for data in dev_raw_data]
+    utterances =  [[(data['turns'][idx]['utterance'], data['turns'][idx+1]['utterance'], data['turns'][idx+1]['turn_id']) for idx in range(0,len(data['turns']),2)] for data in dev_raw_data]
     dialogues_id = [data['dialogue_id'] for data in dev_raw_data]
-    result = []
+    result = {}
     count = 0
     total = 0
     # Enable these patterm to appear in the chit-chat response
@@ -44,10 +43,8 @@ def main(
     ban_probability = 95
     # Generate reponse from BlendorBot
     for i, (uttr, dia_id) in enumerate(zip(utterances, dialogues_id)):
-        dia_result = {}
-        dia_result['dialogue_id'] = dia_id
-        turns = []
-        for (user_uttr, sys_uttr) in tqdm(uttr, ncols=0, desc=f'Dialogue {len(dialogues_id)}/{i+1}:'):
+        turns = {}
+        for (user_uttr, sys_uttr, turn_id) in tqdm(uttr, ncols=0, desc=f'Dialogue {len(dialogues_id)}/{i+1}:'):
             posible_ans = []
             # Generate chit-chat response at the beginning 
             inputs = tokenizer(user_uttr)
@@ -131,24 +128,20 @@ def main(
                 posible_ans.sort(key = lambda x: x['posibility'])
                 best_ans = posible_ans[0]
                 if best_ans['type'] == 'beginning':
-                    turns.append({'speaker': 'USER', 'utterance': user_uttr})
-                    turns.append({'speaker': 'SYSTEM', 'utterance': best_ans['chit-chat']+' '+sys_uttr, 'modified': True, 'additional_chitchat': best_ans['chit-chat']})
+                    turns[turn_id] = {'start': best_ans['chit-chat'], 'mod':'', 'end':''}
                     #print({'speaker': 'USER', 'utterance': user_uttr})
                     #print({'speaker': 'SYSTEM', 'utterance': best_ans['chit-chat']+' '+sys_uttr, 'modified': True, 'additional_chitchat': best_ans['chit-chat']})
                     #print('----------------------------------------------------------------')
                 elif best_ans['type'] == 'end':
-                    turns.append({'speaker': 'USER', 'utterance': user_uttr})
-                    turns.append({'speaker': 'SYSTEM', 'utterance': sys_uttr+' '+best_ans['chit-chat'], 'modified': True, 'additional_chitchat': best_ans['chit-chat']})
+                    turns[turn_id] = {'start': '', 'mod': '', 'end': best_ans['chit-chat']}
                     #print({'speaker': 'USER', 'utterance': user_uttr})
                     #print({'speaker': 'SYSTEM', 'utterance': sys_uttr+' '+best_ans['chit-chat'], 'modified': True, 'additional_chitchat': best_ans['chit-chat']})
                     #print('----------------------------------------------------------------')
                 count += 1
             elif len(posible_ans) == 0:
-                turns.append({'speaker': 'USER', 'utterance': user_uttr})
-                turns.append({'speaker': 'SYSTEM', 'utterance': sys_uttr, 'modified': False})
+                turns[turn_id] = {'start': '', 'mod': '', 'end': ''}
             total += 1
-        dia_result['turns'] = turns
-        result.append(dia_result)
+        result[dia_id] = turns
     print(f'Adding chit-chat response rate: {count/total}')
     with open(output_file_path, 'w') as fp:
         json.dump(result, fp, indent=6)
@@ -161,6 +154,5 @@ if __name__ == '__main__':
     parser.add_argument('output_file_path', type=Path)
     parser.add_argument('--model_checkpoint', type=str, default='facebook/blenderbot-400M-distill')
     parser.add_argument('--cls_model_checkpoint', type=str, default='distilbert-base-uncased')
-    parser.add_argument('--batch_size', type=int, default=4)
     args = parser.parse_args()
     main(**vars(args))
