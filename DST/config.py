@@ -4,6 +4,12 @@ import argparse
 
 def get_args():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--train_on_dataset",type=str, default="all", help="")
+    parser.add_argument("--output_path", type=str, default="./prediction.json")
+    parser.add_argument("--test_type", type=str, default="seen", help="seen, unseen")
+    parser.add_argument("--domain_description", type=str, default="false")
+    # parser.add_argument("--resume_from_checkpoint", type=str, default="save/t5-smallt5_except_domain_none_slotlang_human_lr_0.0001_epoch_5_seed_557/lightning_logs/version_5/checkpoints/epoch=1.ckpt", help="resume from the checkpoint(including model, optimizer, and hyperparameter ... ")
+    parser.add_argument("--resume_from_checkpoint", type=str, default=None, help="resume from the checkpoint(including model, optimizer, and hyperparameter ... ")
     parser.add_argument("--model_checkpoint", type=str, default="t5-small", help="Path, url or short name of the model")
     parser.add_argument("--load_from_checkpoint", type=str, default="epoch=2.ckpt")
     parser.add_argument("--saving_dir", type=str, default="save", help="Path for saving")
@@ -29,11 +35,6 @@ def get_args():
     parser.add_argument("--threshold", type=float, default=0.4)
     parser.add_argument("--semi", action='store_true')
     parser.add_argument("--mode", type=str, default="train")
-    parser.add_argument("--train_on_dataset",type=str, default="all", help="SGD, MultiWOZ, BOTH")
-    parser.add_argument("--output_path", type=str, default="./prediction.json")
-    parser.add_argument("--test_type", type=str, default="seen", help="seen, unseen")
-    parser.add_argument("--domain_description", type=str, default="false")
-    # parser.add_argument("--resume_from_checkpoint", type=str, default="save/t5-smallt5_except_domain_none_slotlang_human_lr_0.0001_epoch_5_seed_557/lightning_logs/version_5/checkpoints/epoch=1.ckpt", help="resume from the checkpoint(including model, optimizer, and hyperparameter ... ")
-    parser.add_argument("--resume_from_checkpoint", type=str, default=None, help="resume from the checkpoint(including model, optimizer, and hyperparameter ... ")
+    
     args = parser.parse_args()
     return args
