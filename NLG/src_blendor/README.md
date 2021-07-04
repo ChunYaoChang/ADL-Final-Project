@@ -2,8 +2,10 @@
 Here is the first method we applied in NLG task. We use pretrained Blenderbot to generate additional chit-chat in this method.
 ## Dependencies
 ```
-torch 1.8.0
-transformers 4.6.0
+python==3.7.10
+numpy==1.19.5
+torch==1.8.0
+transformers==4.6.0
 ```
 ## Data
 Please refer to the README.md in folder data.
