@@ -1,106 +1,105 @@
-from transformers import (
-    AutoModelForCausalLM,
-    AutoTokenizer,
-    AdamW,
-    get_linear_schedule_with_warmup,
-)
-from torch.nn.utils.rnn import pad_sequence
-from argparse import ArgumentParser
-from pathlib import Path
-from util import (
-    load_data,
-    preprocess_data,
-)
-from dataset import (
-    NLPDataset,
-)
-from tqdm import tqdm
-from torch.utils.data import DataLoader
+import os
+import sys
+import time
+import json
+import logging
+
 import torch
+from torch.utils.data import DataLoader
+from transformers import AutoTokenizer, AutoModelForCausalLM, AdamW, get_constant_schedule_with_warmup
+from accelerate import Accelerator
 
-def main(
-    data_dir_path: Path, 
-    model_checkpoint: str,
-    num_sen_per_input: int,
-    batch_size: int,
-    num_epoch: int,
-    warmup_steps: int,
-    weight_decay: float, 
-    lr: float,
-):
-    if(num_sen_per_input % 2 == 0):
-        print('num_sen_per_input should be an odd number.')
-        exit(0)
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print(device)
-    tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
-    train_raw_data = load_data(data_dir_path/'train')
-    dev_raw_data = load_data(data_dir_path/'dev')
-    train_data = preprocess_data(train_raw_data, tokenizer, num_sen_per_input)
-    dev_data = preprocess_data(dev_raw_data, tokenizer, num_sen_per_input)
-    print(len(train_data), len(dev_data))
-    train_dataset = NLPDataset(train_data)
-    dev_dataset = NLPDataset(dev_data)
-    # Padding to equal length
-    def collate(data):
-        if tokenizer._pad_token is None:
-            return pad_sequence(data, batch_first=True)
-        return pad_sequence(data, batch_first=True, padding_value=tokenizer.pad_token_id)
+from dataset import DialogueDataset
+from utils import parse_schema, add_tokens
 
-    train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, collate_fn=collate, drop_last = True)
-    dev_dataloader = DataLoader(dev_dataset, batch_size=batch_size,shuffle=True, collate_fn=collate, drop_last = True)
-    model = AutoModelForCausalLM.from_pretrained(model_checkpoint).to(device)
-    # Prepare optimizer and schedule (linear warmup and decay)
+def train(epochs, model, optimizer, scheduler, train_dataloader, accelerator, checkpoint_path, saving_step, logging_step, gradient_clip_value, gradient_accumulation_step):
+    step = 0
+    for epoch in range(epochs):
+        epoch_loss, step_time = [], []
+        optimizer.zero_grad()
+        epoch_start_time = time.time()
+        for i, (input_ids, labels, ids) in enumerate(train_dataloader):
+            start_time = time.time()
+            model.train()
+            outputs = model(input_ids, labels=torch.clone(input_ids))
+            loss = outputs[0]
+            if labels[0] == "good":
+                loss = torch.mul(loss, 5)
+            epoch_loss.append(loss.item())
+            accelerator.backward(loss)
+            if step > 0 and step % gradient_accumulation_step == 0:
+                accelerator.clip_grad_norm_(model.parameters(), gradient_clip_value)
+                optimizer.step()
+                scheduler.step()
+                optimizer.zero_grad()
+            if step > 0 and step % (logging_step * gradient_accumulation_step) == 0:
+                logging.info(f"Current step: {step // gradient_accumulation_step}")
+                logging.info(f"Current average training loss: {sum(epoch_loss) / len(epoch_loss)}")
+                logging.info(f"Average time per step: {sum(step_time) / len(step_time)}")
+                if len(step_time) > 1e5:
+                    step_time = step_time[len(step_time) // 2:]
+            if step > 0 and step % (saving_step * gradient_accumulation_step) == 0:
+                unwrapped_model = accelerator.unwrap_model(model)
+                accelerator.save(unwrapped_model.state_dict(),  os.path.join(checkpoint_path, f"checkpoint-{step}.ckpt"))
+                logging.info(f"Saving model at step {step}")
+            step += 1
+            step_time.append(time.time() - start_time)
+        logging.info(f"Epoch {epoch+1}, elapsed time: {time.time() - epoch_start_time}, training loss: {sum(epoch_loss) / len(epoch_loss)}")
+        unwrapped_model = accelerator.unwrap_model(model)
+        accelerator.save(unwrapped_model.state_dict(), os.path.join(checkpoint_path, f"checkpoint-epoch-{epoch+1}.ckpt"))
+        logging.info(f"Saving model at epoch {epoch+1}")
+
+def main():
+    domain_to_slots = parse_schema()
+
+    # Prepare tokenizer
+    tokenizer = AutoTokenizer.from_pretrained("gpt2", cache_dir="/tmp2/b07902013/project/tokenizer")
+    add_tokens(tokenizer)
+
+    # Prepare datasets
+    train_path = "/tmp2/b07902013/project/data-0614/train/"
+    dev_path = "/tmp2/b07902013/project/data-0614/dev/"
+    model = AutoModelForCausalLM.from_pretrained("gpt2", cache_dir="/tmp2/b07902013/project/model/")
+    model.resize_token_embeddings(len(tokenizer))
+    train_data = DialogueDataset(train_path, tokenizer)
+    
+    # Prepare hyperparameters, optimizer, scheduler, dataloader
+    lr = 1e-5
+    epochs = 5
+    batch_size = 1
+    saving_step = 400
+    logging_step = 100
+    weight_decay = 1e-3
+    gradient_clip_value = 2.0
+    gradient_accumulation_step = 128
+    checkpoint_path = "/tmp2/b07902013/project/checkpoints/"
+
     no_decay = ["bias", "LayerNorm.weight"]
-    optimizer_grouped_parameters = [
+    param_groups = [
         {
             "params": [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay)],
             "weight_decay": weight_decay,
         },
         {"params": [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)], "weight_decay": 0.0},
     ]
-    optimizer = AdamW(optimizer_grouped_parameters, lr=lr, eps=1e-8)
-    scheduler = get_linear_schedule_with_warmup(
-        optimizer, num_warmup_steps=warmup_steps, num_training_steps=num_epoch*len(train_dataloader)
+    optimizer = AdamW(param_groups, lr=lr)
+    scheduler = get_constant_schedule_with_warmup(optimizer, num_warmup_steps=100)
+
+    train_dataloader = DataLoader(train_data, batch_size=batch_size, shuffle=True, collate_fn=train_data.collate_fn)
+    accelerator = Accelerator(fp16=True)
+    model, optimizer, train_dataloader = accelerator.prepare(model, optimizer, train_dataloader)
+    train(
+        epochs, model, optimizer, scheduler, train_dataloader, accelerator, checkpoint_path,
+        saving_step, logging_step, gradient_clip_value, gradient_accumulation_step
     )
-    model.zero_grad()
-    for epoch in range(num_epoch):
-        train_epoch_loss, eval_epoch_loss = 0,0
-        model.train()
-        for i,item in enumerate(tqdm(train_dataloader, ncols=0, desc=f'Epoch {epoch} Training:')):
-            inputs, labels = item.to(device), item.to(device)
-            outputs = model(inputs, labels=labels)
-            loss = outputs[0]
-            loss.backward()
-            optimizer.step()
-            scheduler.step()
-            model.zero_grad()
-            train_epoch_loss += loss.item()
-        model.eval()
-        for item in tqdm(dev_dataloader, ncols=0, desc=f'Epoch {epoch} Evaluation:'):
-            inputs, labels = item.to(device), item.to(device) 
-            outputs = model(inputs, labels=labels)
-            loss = outputs[0]
-            eval_epoch_loss += loss.item()
-        print(f'Epoch {epoch}: Training loss = {train_epoch_loss/len(train_dataloader)}, Evaluation loss = {eval_epoch_loss/len(dev_dataloader)}')
-        if epoch == 0:
-            torch.save(model, './BestModel.mdl')
-            best_eval_loss = eval_epoch_loss/len(dev_dataloader)
-        else:
-            if(best_eval_loss > eval_epoch_loss/len(dev_dataloader)):
-                torch.save(model, './BestModel.mdl')
-                best_eval_loss = eval_epoch_loss/len(dev_dataloader)
-        
-if __name__ == '__main__':
-    parser = ArgumentParser()
-    parser.add_argument('data_dir_path', type=Path)
-    parser.add_argument('--model_checkpoint', type=str, default='microsoft/DialoGPT-small')
-    ## num_sen_per_input should be an odd number
-    parser.add_argument('--num_sen_per_input', type=int, default=5)
-    parser.add_argument('--batch_size', type=int, default=4)
-    parser.add_argument('--num_epoch', type=int, default=2)
-    parser.add_argument('--warmup_steps', type=int, default=0)
-    parser.add_argument('--weight_decay', type=float, default=0.1)
-    parser.add_argument('--lr', type=float, default=5e-5)
-    args = parser.parse_args()
-    main(**vars(args))
+
+if __name__ == "__main__":
+    logging.basicConfig(
+        filename="/tmp2/b07902013/project/log/train.txt",
+        encoding="utf-8",
+        filemode="a",
+        format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
+        datefmt="%Y/%m/%d %H:%M:%S",
+        level=logging.INFO
+    )
+    main()
