@@ -1,0 +1,5538 @@
+[
+ {
+  "dialogue_id": "MUL0794.json",
+  "services": [
+   "train",
+   "hotel"
+  ],
+  "turns": [
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "departure",
+        "value": "cambridge"
+       },
+       {
+        "act": "INFORM",
+        "slot": "destination",
+        "value": "birmingham new street"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "birmingham new street"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "0",
+    "utterance": "Yeah, could you find me a train? I'm in Cambridge, and I'd like to go over to Birmingham New Street."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "1",
+    "utterance": "There are 133 trains making that trip, do you have a day and time you would like to go?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "day",
+        "value": "wednesday"
+       },
+       {
+        "act": "INFORM",
+        "slot": "leaveat",
+        "value": "21:00"
+       }
+      ],
+      "service": "train",
+      "slots": [
+       {
+        "exclusive_end": 34,
+        "slot": "train-leaveat",
+        "start": 29,
+        "value": "21:00"
+       }
+      ],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-day": [
+         "wednesday"
+        ],
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "birmingham new street"
+        ],
+        "train-leaveat": [
+         "21:00"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "2",
+    "utterance": "Yes, I'd like to leave after 21:00 on Wednesday."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "3",
+    "utterance": "I have a train that departs at 21:01 and two more each a hour later than the first. Which train would you like to book?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "leaveat",
+        "value": "21:01"
+       },
+       {
+        "act": "REQUEST",
+        "slot": "ref",
+        "value": "?"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "book_train",
+       "requested_slots": [
+        "train-ref"
+       ],
+       "slot_values": {
+        "train-bookpeople": [
+         "1"
+        ],
+        "train-day": [
+         "wednesday"
+        ],
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "birmingham new street"
+        ],
+        "train-leaveat": [
+         "21:00"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "4",
+    "utterance": "I will take the 21:01. the ticket is just for me and I would like a reference number after the booking is completed."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "5",
+    "utterance": "I have successfully booked you for the TR7935 train leaving at 21:01. Your reference number is E9ZIOMAN ."
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "parking",
+        "value": "yes"
+       },
+       {
+        "act": "INFORM",
+        "slot": "pricerange",
+        "value": "moderate"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-parking": [
+         "yes"
+        ],
+        "hotel-pricerange": [
+         "moderate"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "train-bookpeople": [
+         "1"
+        ],
+        "train-day": [
+         "wednesday"
+        ],
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "birmingham new street"
+        ],
+        "train-leaveat": [
+         "21:00"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "6",
+    "utterance": "Great, thank you! I'd like to find a place to stay, too. I'm thinking of something in the moderate range with free parking. Any ideas?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "7",
+    "utterance": "I have 12 guesthouse and 2 hotels in that range. Is there a certain area of town you would like to stay in?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "area",
+        "value": "dontcare"
+       },
+       {
+        "act": "INFORM",
+        "slot": "stars",
+        "value": "4"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-area": [
+         "dontcare"
+        ],
+        "hotel-parking": [
+         "yes"
+        ],
+        "hotel-pricerange": [
+         "moderate"
+        ],
+        "hotel-stars": [
+         "4"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "train-bookpeople": [
+         "1"
+        ],
+        "train-day": [
+         "wednesday"
+        ],
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "birmingham new street"
+        ],
+        "train-leaveat": [
+         "21:00"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "8",
+    "utterance": "No preference on area, but can you see if there are any that have 4 stars?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "9",
+    "utterance": "I have 3 in the north, 1 in the south, and 1 in the east."
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "internet",
+        "value": "no"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-area": [
+         "dontcare"
+        ],
+        "hotel-internet": [
+         "no"
+        ],
+        "hotel-parking": [
+         "yes"
+        ],
+        "hotel-pricerange": [
+         "moderate"
+        ],
+        "hotel-stars": [
+         "4"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "train-bookpeople": [
+         "1"
+        ],
+        "train-day": [
+         "wednesday"
+        ],
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "birmingham new street"
+        ],
+        "train-leaveat": [
+         "21:00"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "10",
+    "utterance": "I'll take whichever one doesn't include Internet."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "11",
+    "utterance": "It looks like all 9 choices do include Internet. Would you be willing to use one of those?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-area": [
+         "dontcare"
+        ],
+        "hotel-internet": [
+         "no"
+        ],
+        "hotel-parking": [
+         "yes"
+        ],
+        "hotel-pricerange": [
+         "moderate"
+        ],
+        "hotel-stars": [
+         "4"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "train-bookpeople": [
+         "1"
+        ],
+        "train-day": [
+         "wednesday"
+        ],
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "birmingham new street"
+        ],
+        "train-leaveat": [
+         "21:00"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "12",
+    "utterance": "Would you like to book one of those today?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [
+       {
+        "exclusive_end": 119,
+        "slot": "hotel-name",
+        "start": 102,
+        "value": "Acorn Guest House"
+       }
+      ]
+     }
+    ],
+    "speaker": "SYSTEM",
+    "turn_id": "13",
+    "utterance": "I could certainly help you book one if you don't mind that it has internet. Would you like to try the Acorn Guest House?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "name",
+        "value": "acorn guest house"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-area": [
+         "dontcare"
+        ],
+        "hotel-internet": [
+         "no"
+        ],
+        "hotel-name": [
+         "acorn guest house"
+        ],
+        "hotel-parking": [
+         "yes"
+        ],
+        "hotel-pricerange": [
+         "moderate"
+        ],
+        "hotel-stars": [
+         "4"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "train-bookpeople": [
+         "1"
+        ],
+        "train-day": [
+         "wednesday"
+        ],
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "birmingham new street"
+        ],
+        "train-leaveat": [
+         "21:00"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "14",
+    "utterance": "Okay, let's try that one."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "15",
+    "utterance": "What day would you like to book the hotel for?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "stars",
+        "value": "4"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-area": [
+         "dontcare"
+        ],
+        "hotel-internet": [
+         "no"
+        ],
+        "hotel-name": [
+         "acorn guest house"
+        ],
+        "hotel-parking": [
+         "yes"
+        ],
+        "hotel-pricerange": [
+         "moderate"
+        ],
+        "hotel-stars": [
+         "4"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "train-bookpeople": [
+         "1"
+        ],
+        "train-day": [
+         "wednesday"
+        ],
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "birmingham new street"
+        ],
+        "train-leaveat": [
+         "21:00"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "16",
+    "utterance": "Does it have four stars?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "17",
+    "utterance": "Yes, it has 4 stars and includes free parking."
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "REQUEST",
+        "slot": "phone",
+        "value": "?"
+       },
+       {
+        "act": "REQUEST",
+        "slot": "postcode",
+        "value": "?"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [
+        "hotel-postcode",
+        "hotel-phone"
+       ],
+       "slot_values": {
+        "hotel-area": [
+         "dontcare"
+        ],
+        "hotel-internet": [
+         "no"
+        ],
+        "hotel-name": [
+         "acorn guest house"
+        ],
+        "hotel-parking": [
+         "yes"
+        ],
+        "hotel-pricerange": [
+         "moderate"
+        ],
+        "hotel-stars": [
+         "4"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "train-bookpeople": [
+         "1"
+        ],
+        "train-day": [
+         "wednesday"
+        ],
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "birmingham new street"
+        ],
+        "train-leaveat": [
+         "21:00"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "18",
+    "utterance": "That sounds perfect. Can I have the postcode and phone number please?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "19",
+    "utterance": "Sure, the postcode is cb41da and the phone number is 01223353888. Can I help with anything else today?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-area": [
+         "dontcare"
+        ],
+        "hotel-internet": [
+         "no"
+        ],
+        "hotel-name": [
+         "acorn guest house"
+        ],
+        "hotel-parking": [
+         "yes"
+        ],
+        "hotel-pricerange": [
+         "moderate"
+        ],
+        "hotel-stars": [
+         "4"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "train-bookpeople": [
+         "1"
+        ],
+        "train-day": [
+         "wednesday"
+        ],
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "birmingham new street"
+        ],
+        "train-leaveat": [
+         "21:00"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "20",
+    "utterance": "No that sounds perfect. Thank you for all your help."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "21",
+    "utterance": "You're welcome. Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG0683.json",
+  "services": [
+   "restaurant"
+  ],
+  "turns": [
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "area",
+        "value": "north"
+       },
+       {
+        "act": "INFORM",
+        "slot": "pricerange",
+        "value": "expensive"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "north"
+        ],
+        "restaurant-pricerange": [
+         "expensive"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "0",
+    "utterance": "I'm going on a date and need an expensive restaurant on the north side of town."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "1",
+    "utterance": "There are 5 restaurants that meet your criteria. Can I interest you in Asia, Chinese, European, or French cuisine?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "food",
+        "value": "indian"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 26,
+        "slot": "restaurant-food",
+        "start": 20,
+        "value": "Indian"
+       }
+      ],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "north"
+        ],
+        "restaurant-food": [
+         "indian"
+        ],
+        "restaurant-pricerange": [
+         "expensive"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "2",
+    "utterance": "No, I really prefer Indian if possible."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "3",
+    "utterance": "I'm sorry, there are no expensive Indian restaurants on the north side."
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "area",
+        "value": "north"
+       },
+       {
+        "act": "INFORM",
+        "slot": "food",
+        "value": "asian oriental"
+       },
+       {
+        "act": "INFORM",
+        "slot": "pricerange",
+        "value": "expensive"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 77,
+        "slot": "restaurant-food",
+        "start": 63,
+        "value": "Asian Oriental"
+       }
+      ],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "north"
+        ],
+        "restaurant-food": [
+         "asian oriental"
+        ],
+        "restaurant-pricerange": [
+         "expensive"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "4",
+    "utterance": "Aww, that's too bad. Hmm, can you see if there is an expensive Asian Oriental restaurant on the north side?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 20,
+        "slot": "restaurant-name",
+        "start": 9,
+        "value": "Saigon City"
+       }
+      ]
+     }
+    ],
+    "speaker": "SYSTEM",
+    "turn_id": "5",
+    "utterance": "There is Saigon City. Would you like me to book a table for 2?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "bookday",
+        "value": "saturday"
+       },
+       {
+        "act": "INFORM",
+        "slot": "bookpeople",
+        "value": "5"
+       },
+       {
+        "act": "INFORM",
+        "slot": "booktime",
+        "value": "17:45"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 74,
+        "slot": "restaurant-booktime",
+        "start": 69,
+        "value": "17:45"
+       }
+      ],
+      "state": {
+       "active_intent": "book_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "north"
+        ],
+        "restaurant-bookday": [
+         "saturday"
+        ],
+        "restaurant-bookpeople": [
+         "5"
+        ],
+        "restaurant-booktime": [
+         "17:45"
+        ],
+        "restaurant-food": [
+         "asian oriental"
+        ],
+        "restaurant-name": [
+         "saigon city"
+        ],
+        "restaurant-pricerange": [
+         "expensive"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "6",
+    "utterance": "That sounds good. I want to book a table for 5 people on Saturday at 17:45."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "7",
+    "utterance": "Booking was successful. The table will be reserved for 15 minutes. Reference number is : HNO7WYMG . Is there anything else I can help you with?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "north"
+        ],
+        "restaurant-bookday": [
+         "saturday"
+        ],
+        "restaurant-bookpeople": [
+         "5"
+        ],
+        "restaurant-booktime": [
+         "17:45"
+        ],
+        "restaurant-food": [
+         "asian oriental"
+        ],
+        "restaurant-name": [
+         "saigon city"
+        ],
+        "restaurant-pricerange": [
+         "expensive"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "8",
+    "utterance": "No that was all I needed, thank you so much, goodbye!"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "9",
+    "utterance": "Have a great time. Good bye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG01512.json",
+  "services": [
+   "train"
+  ],
+  "turns": [
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [],
+       "slot_values": {}
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "0",
+    "utterance": "Can you help me find a train please?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "1",
+    "utterance": "Sure! Where are you headed?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "destination",
+        "value": "cambridge"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-destination": [
+         "cambridge"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "2",
+    "utterance": "I am headed to Cambridge this week."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "3",
+    "utterance": "Where are you leaving from, please?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "departure",
+        "value": "leicester"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-departure": [
+         "leicester"
+        ],
+        "train-destination": [
+         "cambridge"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "4",
+    "utterance": "I will leave from Leicester."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "5",
+    "utterance": "What day would you like to leave?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "day",
+        "value": "friday"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-day": [
+         "friday"
+        ],
+        "train-departure": [
+         "leicester"
+        ],
+        "train-destination": [
+         "cambridge"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "6",
+    "utterance": "Friday is preferable."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "7",
+    "utterance": "There are trains running from Leicester to Cambridge every hour from 5:09 to 23:09 on Friday. Did you have a particular time in mind? Would you like to book tickets?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "arriveby",
+        "value": "16:15"
+       }
+      ],
+      "service": "train",
+      "slots": [
+       {
+        "exclusive_end": 35,
+        "slot": "train-arriveby",
+        "start": 30,
+        "value": "16:15"
+       }
+      ],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-arriveby": [
+         "16:15"
+        ],
+        "train-day": [
+         "friday"
+        ],
+        "train-departure": [
+         "leicester"
+        ],
+        "train-destination": [
+         "cambridge"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "8",
+    "utterance": "I'd like whichever arrives by 16:15 please."
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [
+       {
+        "exclusive_end": 32,
+        "slot": "train-leaveat",
+        "start": 27,
+        "value": "14:09"
+       },
+       {
+        "exclusive_end": 73,
+        "slot": "train-arriveby",
+        "start": 68,
+        "value": "15:54"
+       }
+      ]
+     }
+    ],
+    "speaker": "SYSTEM",
+    "turn_id": "9",
+    "utterance": "TR6247 leaves Leicester at 14:09 Friday and arrives in Cambridge at 15:54. Will that work for you?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "bookpeople",
+        "value": "3"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "book_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-arriveby": [
+         "15:54"
+        ],
+        "train-bookpeople": [
+         "3"
+        ],
+        "train-day": [
+         "friday"
+        ],
+        "train-departure": [
+         "leicester"
+        ],
+        "train-destination": [
+         "cambridge"
+        ],
+        "train-leaveat": [
+         "14:09"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "10",
+    "utterance": "That will be fine. book for 3 people"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "11",
+    "utterance": "Alright. Booking was successful. Your reference number is 87MI5OVY ."
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "train-arriveby": [
+         "15:54"
+        ],
+        "train-bookpeople": [
+         "3"
+        ],
+        "train-day": [
+         "friday"
+        ],
+        "train-departure": [
+         "leicester"
+        ],
+        "train-destination": [
+         "cambridge"
+        ],
+        "train-leaveat": [
+         "14:09"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "12",
+    "utterance": "Thanks for your help. That's all I need."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "13",
+    "utterance": "You're welcome. Have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG02343.json",
+  "services": [],
+  "turns": [
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "police",
+      "slots": [],
+      "state": {
+       "active_intent": "find_police",
+       "requested_slots": [],
+       "slot_values": {}
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "0",
+    "utterance": "I need to find the Parkside Police Station"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "1",
+    "utterance": "Here is the information for Parkside Police Station Telephone:01223358966 Address :Parkside, Cambridge Postcode :CB11JG"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "REQUEST",
+        "slot": "address",
+        "value": "?"
+       }
+      ],
+      "service": "police",
+      "slots": [],
+      "state": {
+       "active_intent": "find_police",
+       "requested_slots": [
+        "police-address"
+       ],
+       "slot_values": {}
+      }
+     },
+     {
+      "actions": [],
+      "service": "attraction",
+      "slots": [],
+      "state": {
+       "active_intent": "find_attraction",
+       "requested_slots": [],
+       "slot_values": {}
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "2",
+    "utterance": "Sorry, what is the street address?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "3",
+    "utterance": "I do not have that information. Please call their telephone number to and ask them for the address."
+   },
+   {
+    "frames": [],
+    "speaker": "USER",
+    "turn_id": "4",
+    "utterance": "Thank you for your assistance."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "5",
+    "utterance": "welcome. at your service next time"
+   },
+   {
+    "frames": [],
+    "speaker": "USER",
+    "turn_id": "6",
+    "utterance": "Thanks, that's all. Good bye."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "7",
+    "utterance": "Thank you, Goodbye"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG0631.json",
+  "services": [
+   "restaurant"
+  ],
+  "turns": [
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "area",
+        "value": "centre"
+       },
+       {
+        "act": "INFORM",
+        "slot": "pricerange",
+        "value": "cheap"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-pricerange": [
+         "cheap"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "0",
+    "utterance": "I'm looking for cheap eats in the centre."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "1",
+    "utterance": "Yes I have many Chinese and Asian restaurants as well as Spanish, Portuguese and Indian cuisines matching your price requirements. Any preference?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "food",
+        "value": "chinese"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 26,
+        "slot": "restaurant-food",
+        "start": 19,
+        "value": "Chinese"
+       }
+      ],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-food": [
+         "chinese"
+        ],
+        "restaurant-pricerange": [
+         "cheap"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "2",
+    "utterance": "I am interested in Chinese food."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "3",
+    "utterance": "I found three Chinese restaurants in the centre: Charlie Chan, Rice House and Golden House. Would you like me to book you a table?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "bookday",
+        "value": "sunday"
+       },
+       {
+        "act": "INFORM",
+        "slot": "bookpeople",
+        "value": "1"
+       },
+       {
+        "act": "INFORM",
+        "slot": "booktime",
+        "value": "14:15"
+       },
+       {
+        "act": "INFORM",
+        "slot": "name",
+        "value": "charlie chan"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 53,
+        "slot": "restaurant-name",
+        "start": 41,
+        "value": "Charlie Chan"
+       },
+       {
+        "exclusive_end": 72,
+        "slot": "restaurant-booktime",
+        "start": 67,
+        "value": "14:15"
+       }
+      ],
+      "state": {
+       "active_intent": "book_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-bookday": [
+         "sunday"
+        ],
+        "restaurant-bookpeople": [
+         "1"
+        ],
+        "restaurant-booktime": [
+         "14:15"
+        ],
+        "restaurant-food": [
+         "chinese"
+        ],
+        "restaurant-name": [
+         "charlie chan"
+        ],
+        "restaurant-pricerange": [
+         "cheap"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "4",
+    "utterance": "Yes, please! Can I have a table for 1 at Charlie Chan on Sunday at 14:15?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "5",
+    "utterance": "Sure thing your reference number is D3A1XJL7 . Is there anything else I can help you with today?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-bookday": [
+         "sunday"
+        ],
+        "restaurant-bookpeople": [
+         "1"
+        ],
+        "restaurant-booktime": [
+         "14:15"
+        ],
+        "restaurant-food": [
+         "chinese"
+        ],
+        "restaurant-name": [
+         "charlie chan"
+        ],
+        "restaurant-pricerange": [
+         "cheap"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "6",
+    "utterance": "No, you've been very helpful. Have a good day."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "7",
+    "utterance": "Thanks for contacting the Cambridge TownInfo Centre and have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SSNG0326.json",
+  "services": [
+   "hotel"
+  ],
+  "turns": [
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "area",
+        "value": "centre"
+       },
+       {
+        "act": "INFORM",
+        "slot": "type",
+        "value": "guesthouse"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-area": [
+         "centre"
+        ],
+        "hotel-type": [
+         "guesthouse"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "0",
+    "utterance": "I am looking for a place to stay that is a guesthouse located in the center of town."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "1",
+    "utterance": "Alexander Bed and Breakfast is a 4-star hotel located in the center of town. Would you like to book it?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "parking",
+        "value": "yes"
+       },
+       {
+        "act": "INFORM",
+        "slot": "stars",
+        "value": "0"
+       },
+       {
+        "act": "INFORM",
+        "slot": "type",
+        "value": "hotel"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-area": [
+         "centre"
+        ],
+        "hotel-parking": [
+         "yes"
+        ],
+        "hotel-stars": [
+         "0"
+        ],
+        "hotel-type": [
+         "hotel"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "2",
+    "utterance": "The hotel should have a star of 0 and should include free parking."
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [
+       {
+        "exclusive_end": 20,
+        "slot": "hotel-name",
+        "start": 10,
+        "value": "el shaddai"
+       }
+      ]
+     }
+    ],
+    "speaker": "SYSTEM",
+    "turn_id": "3",
+    "utterance": "How about el shaddai. It's a gueshouse and located in the centre. They have free internet and parking."
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "bookday",
+        "value": "sunday"
+       },
+       {
+        "act": "INFORM",
+        "slot": "bookpeople",
+        "value": "4"
+       },
+       {
+        "act": "INFORM",
+        "slot": "bookstay",
+        "value": "4"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "book_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-area": [
+         "centre"
+        ],
+        "hotel-bookday": [
+         "sunday"
+        ],
+        "hotel-bookpeople": [
+         "4"
+        ],
+        "hotel-bookstay": [
+         "4"
+        ],
+        "hotel-name": [
+         "el shaddai",
+         "el shaddia guesthouse"
+        ],
+        "hotel-parking": [
+         "yes"
+        ],
+        "hotel-stars": [
+         "0"
+        ],
+        "hotel-type": [
+         "hotel"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "4",
+    "utterance": "Yes, four people for four nights, starting Sunday, please."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "5",
+    "utterance": "That booking was unsuccessful unfortunately, want to give another day a try?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "book_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-bookday": [
+         "sunday"
+        ],
+        "hotel-bookpeople": [
+         "4"
+        ],
+        "hotel-bookstay": [
+         "4"
+        ],
+        "hotel-type": [
+         "hotel"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "6",
+    "utterance": "Can you try another hotel in the same price range?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [
+       {
+        "exclusive_end": 112,
+        "slot": "hotel-name",
+        "start": 87,
+        "value": "city centre north b and b"
+       }
+      ]
+     }
+    ],
+    "speaker": "SYSTEM",
+    "turn_id": "7",
+    "utterance": "Ive located a guesthouse that meets your criteria expect that it is on the north side, city centre north b and b would you like me to try and book that?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "book_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-bookday": [
+         "sunday"
+        ],
+        "hotel-bookpeople": [
+         "4"
+        ],
+        "hotel-bookstay": [
+         "4"
+        ],
+        "hotel-name": [
+         "city centre north b and b"
+        ],
+        "hotel-type": [
+         "hotel"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "8",
+    "utterance": "Yes please do try that."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "9",
+    "utterance": "I have made a reservation for you at city centre North b and b for 4 nights for 4 people starting on Sunday. Your reference number is T1X3A0DO ."
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "book_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-bookday": [
+         "sunday"
+        ],
+        "hotel-bookpeople": [
+         "4"
+        ],
+        "hotel-bookstay": [
+         "4"
+        ],
+        "hotel-name": [
+         "city centre north b and b"
+        ],
+        "hotel-type": [
+         "hotel"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "10",
+    "utterance": "Thank you. Can you give me the address and the phone number?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "11",
+    "utterance": "Sure. It is located at 328a Histon Road, post code cb43ht. The phone number is 01223312843. Can I be of further help?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-bookday": [
+         "sunday"
+        ],
+        "hotel-bookpeople": [
+         "4"
+        ],
+        "hotel-bookstay": [
+         "4"
+        ],
+        "hotel-name": [
+         "city centre north b and b"
+        ],
+        "hotel-type": [
+         "hotel"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "12",
+    "utterance": "No. I think that is all I need. Thanks for your help!"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "13",
+    "utterance": "Wonderful! Thank you for using the Cambridge TownInfo centre. Have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "MUL0192.json",
+  "services": [
+   "restaurant",
+   "hotel"
+  ],
+  "turns": [
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "pricerange",
+        "value": "cheap"
+       },
+       {
+        "act": "INFORM",
+        "slot": "type",
+        "value": "guesthouse"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-pricerange": [
+         "cheap"
+        ],
+        "hotel-type": [
+         "guesthouse"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "0",
+    "utterance": "I need a guesthouse in the cheap price range."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "1",
+    "utterance": "I have many results for a cheap guesthouse, would you like to narrow it down to stay in a particular area of the town?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "stars",
+        "value": "4"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-pricerange": [
+         "cheap"
+        ],
+        "hotel-type": [
+         "guesthouse"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "2",
+    "utterance": "Do any of these hotels have 4 stars?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "3",
+    "utterance": "Yes, in fact 7 of the 9 hotels in your search criteria have 4 stars. Would you like to narrow your search by area?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "bookday",
+        "value": "saturday"
+       },
+       {
+        "act": "INFORM",
+        "slot": "bookpeople",
+        "value": "8"
+       },
+       {
+        "act": "INFORM",
+        "slot": "bookstay",
+        "value": "5"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "book_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-bookday": [
+         "saturday"
+        ],
+        "hotel-bookpeople": [
+         "8"
+        ],
+        "hotel-bookstay": [
+         "5"
+        ],
+        "hotel-pricerange": [
+         "cheap"
+        ],
+        "hotel-type": [
+         "guesthouse"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [],
+       "slot_values": {}
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "4",
+    "utterance": "Any area is fine, but I'd like to book rooms for 8 people. We'll be staying 5 nights, beginning on Saturday. Can any of them accommodate that?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [
+       {
+        "exclusive_end": 60,
+        "slot": "hotel-name",
+        "start": 35,
+        "value": "Alexander Bed & Breakfast"
+       }
+      ]
+     }
+    ],
+    "speaker": "SYSTEM",
+    "turn_id": "5",
+    "utterance": "I was able to get you rooms at the Alexander Bed & Breakfast. Reference number is : HREOM15W . Can I be of further assistance today?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "name",
+        "value": "nirala"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 57,
+        "slot": "restaurant-name",
+        "start": 51,
+        "value": "Nirala"
+       }
+      ],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-name": [
+         "nirala"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "book_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-bookday": [
+         "saturday"
+        ],
+        "hotel-bookpeople": [
+         "8"
+        ],
+        "hotel-bookstay": [
+         "5"
+        ],
+        "hotel-name": [
+         "alexander bed and breakfast",
+         "alexander bed & breakfast"
+        ],
+        "hotel-pricerange": [
+         "cheap"
+        ],
+        "hotel-type": [
+         "guesthouse"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "6",
+    "utterance": "Yes, I am also looking for a restaurant called The Nirala."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "7",
+    "utterance": "The nirala serves indian food in the north side of town. It is located at 7 Milton Road Chesterton, phone 01223360966. Is there anything else I can help with?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "bookday",
+        "value": "saturday"
+       },
+       {
+        "act": "INFORM",
+        "slot": "bookpeople",
+        "value": "8"
+       },
+       {
+        "act": "INFORM",
+        "slot": "booktime",
+        "value": "16:00"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 45,
+        "slot": "restaurant-booktime",
+        "start": 40,
+        "value": "16:00"
+       }
+      ],
+      "state": {
+       "active_intent": "book_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-bookday": [
+         "saturday"
+        ],
+        "restaurant-bookpeople": [
+         "8"
+        ],
+        "restaurant-booktime": [
+         "16:00"
+        ],
+        "restaurant-name": [
+         "nirala"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "book_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-bookday": [
+         "saturday"
+        ],
+        "hotel-bookpeople": [
+         "8"
+        ],
+        "hotel-bookstay": [
+         "5"
+        ],
+        "hotel-name": [
+         "alexander bed and breakfast",
+         "alexander bed & breakfast"
+        ],
+        "hotel-pricerange": [
+         "cheap"
+        ],
+        "hotel-type": [
+         "guesthouse"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "8",
+    "utterance": "I'd like to book a table there for 8 at 16:00 on Saturday, please."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "9",
+    "utterance": "I am sorry, I was unable to reserve a table for that time on Saturday, would you like to try a different time slot?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "booktime",
+        "value": "15:00"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 17,
+        "slot": "restaurant-booktime",
+        "start": 12,
+        "value": "15:00"
+       }
+      ],
+      "state": {
+       "active_intent": "book_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-bookday": [
+         "saturday"
+        ],
+        "restaurant-bookpeople": [
+         "8"
+        ],
+        "restaurant-booktime": [
+         "15:00"
+        ],
+        "restaurant-name": [
+         "nirala"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-bookday": [
+         "saturday"
+        ],
+        "hotel-bookpeople": [
+         "8"
+        ],
+        "hotel-bookstay": [
+         "5"
+        ],
+        "hotel-name": [
+         "alexander bed and breakfast",
+         "alexander bed & breakfast"
+        ],
+        "hotel-pricerange": [
+         "cheap"
+        ],
+        "hotel-type": [
+         "guesthouse"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "10",
+    "utterance": "Yes, see if 15:00 is available."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "11",
+    "utterance": "Booking was a success!"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "REQUEST",
+        "slot": "ref",
+        "value": "?"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "book_restaurant",
+       "requested_slots": [
+        "restaurant-ref"
+       ],
+       "slot_values": {
+        "restaurant-bookday": [
+         "saturday"
+        ],
+        "restaurant-bookpeople": [
+         "8"
+        ],
+        "restaurant-booktime": [
+         "15:00"
+        ],
+        "restaurant-name": [
+         "nirala"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-bookday": [
+         "saturday"
+        ],
+        "hotel-bookpeople": [
+         "8"
+        ],
+        "hotel-bookstay": [
+         "5"
+        ],
+        "hotel-name": [
+         "alexander bed and breakfast",
+         "alexander bed & breakfast"
+        ],
+        "hotel-pricerange": [
+         "cheap"
+        ],
+        "hotel-type": [
+         "guesthouse"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "12",
+    "utterance": "Could you please provide the reference number?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "13",
+    "utterance": "Sure thing. The reference number is Z1YHIR0Y ."
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-bookday": [
+         "saturday"
+        ],
+        "restaurant-bookpeople": [
+         "8"
+        ],
+        "restaurant-booktime": [
+         "15:00"
+        ],
+        "restaurant-name": [
+         "nirala"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-bookday": [
+         "saturday"
+        ],
+        "hotel-bookpeople": [
+         "8"
+        ],
+        "hotel-bookstay": [
+         "5"
+        ],
+        "hotel-name": [
+         "alexander bed and breakfast",
+         "alexander bed & breakfast"
+        ],
+        "hotel-pricerange": [
+         "cheap"
+        ],
+        "hotel-type": [
+         "guesthouse"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "14",
+    "utterance": "Great - that's all I need today. Thanks for your help!"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "15",
+    "utterance": "Glad that I could be of service. Goodbye!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG0413.json",
+  "services": [
+   "train"
+  ],
+  "turns": [
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "departure",
+        "value": "peterborough"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-departure": [
+         "peterborough"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "0",
+    "utterance": "I need a train from peterborough"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "1",
+    "utterance": "Where are you headed, and what day and time did you need to leave?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "day",
+        "value": "friday"
+       },
+       {
+        "act": "INFORM",
+        "slot": "destination",
+        "value": "cambridge"
+       },
+       {
+        "act": "INFORM",
+        "slot": "leaveat",
+        "value": "8:00"
+       }
+      ],
+      "service": "train",
+      "slots": [
+       {
+        "exclusive_end": 46,
+        "slot": "train-leaveat",
+        "start": 42,
+        "value": "8:00"
+       }
+      ],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-day": [
+         "friday"
+        ],
+        "train-departure": [
+         "peterborough"
+        ],
+        "train-destination": [
+         "cambridge"
+        ],
+        "train-leaveat": [
+         "08:00",
+         "8:00"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "2",
+    "utterance": "I am going to cambridge and leaving after 8:00 on friday"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "3",
+    "utterance": "Sure, I have TR6496 departing at 08:19, arriving at 09:09, with a duration of 50 minutes. The cost is 16.50 pounds. Would that work for you?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "bookpeople",
+        "value": "5"
+       },
+       {
+        "act": "REQUEST",
+        "slot": "ref",
+        "value": "?"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "book_train",
+       "requested_slots": [
+        "train-ref"
+       ],
+       "slot_values": {
+        "train-bookpeople": [
+         "5"
+        ],
+        "train-day": [
+         "friday"
+        ],
+        "train-departure": [
+         "peterborough"
+        ],
+        "train-destination": [
+         "cambridge"
+        ],
+        "train-leaveat": [
+         "08:00",
+         "8:00"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "4",
+    "utterance": "Yes please book it for 5 people and give me a reference number."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "5",
+    "utterance": "Booking was successful, the total fee is 82.5 GBP payable at the station, the feference number is : MFCHF1YV . Can I help with anything else?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "train-bookpeople": [
+         "5"
+        ],
+        "train-day": [
+         "friday"
+        ],
+        "train-departure": [
+         "peterborough"
+        ],
+        "train-destination": [
+         "cambridge"
+        ],
+        "train-leaveat": [
+         "08:00",
+         "8:00"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "6",
+    "utterance": "I think that takes care of everything, thanks!"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "7",
+    "utterance": "Great. I'm glad I could help! Please consider using our service again the future. Goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "WOZ20062.json",
+  "services": [
+   "restaurant"
+  ],
+  "turns": [
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "area",
+        "value": "south"
+       },
+       {
+        "act": "INFORM",
+        "slot": "food",
+        "value": "panasian"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 65,
+        "slot": "restaurant-food",
+        "start": 57,
+        "value": "panasian"
+       }
+      ],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "south"
+        ],
+        "restaurant-food": [
+         "panasian"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "0",
+    "utterance": "I want a restaurant in the south part of town and serves panasian food."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "1",
+    "utterance": "Sorry, there are no restaurants in the south part of town serving panasian food."
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "food",
+        "value": "italian"
+       },
+       {
+        "act": "REQUEST",
+        "slot": "phone",
+        "value": "?"
+       },
+       {
+        "act": "REQUEST",
+        "slot": "postcode",
+        "value": "?"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 7,
+        "slot": "restaurant-food",
+        "start": 0,
+        "value": "italian"
+       }
+      ],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [
+        "restaurant-phone",
+        "restaurant-postcode"
+       ],
+       "slot_values": {
+        "restaurant-area": [
+         "south"
+        ],
+        "restaurant-food": [
+         "italian"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "2",
+    "utterance": "italian food please. phone number and postcode please."
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 18,
+        "slot": "restaurant-name",
+        "start": 0,
+        "value": "Frankie and Bennys"
+       }
+      ]
+     }
+    ],
+    "speaker": "SYSTEM",
+    "turn_id": "3",
+    "utterance": "Frankie and Bennys serves Italian food in the south part of town. The phone number is 01223 412430, and the postcode is C.B 1, 7 D.Y."
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "REQUEST",
+        "slot": "food",
+        "value": "?"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [
+        "restaurant-food"
+       ],
+       "slot_values": {
+        "restaurant-area": [
+         "south"
+        ],
+        "restaurant-food": [
+         "italian"
+        ],
+        "restaurant-name": [
+         "frankie and bennys"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "4",
+    "utterance": "Sorry what type of food do they serve?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "5",
+    "utterance": "They serve italian food."
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "REQUEST",
+        "slot": "pricerange",
+        "value": "?"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [
+        "restaurant-pricerange"
+       ],
+       "slot_values": {
+        "restaurant-area": [
+         "south"
+        ],
+        "restaurant-food": [
+         "italian"
+        ],
+        "restaurant-name": [
+         "frankie and bennys"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "6",
+    "utterance": "what is the price range ?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "7",
+    "utterance": "They are quite expensive ."
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "south"
+        ],
+        "restaurant-food": [
+         "italian"
+        ],
+        "restaurant-name": [
+         "frankie and bennys"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "8",
+    "utterance": "Thank you for your help. Good bye."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "9",
+    "utterance": "Thank you, goodbye!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG0100.json",
+  "services": [
+   "taxi"
+  ],
+  "turns": [
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "departure",
+        "value": "hughes hall"
+       }
+      ],
+      "service": "taxi",
+      "slots": [
+       {
+        "exclusive_end": 51,
+        "slot": "taxi-departure",
+        "start": 40,
+        "value": "hughes hall"
+       }
+      ],
+      "state": {
+       "active_intent": "find_taxi",
+       "requested_slots": [],
+       "slot_values": {
+        "taxi-departure": [
+         "hughes hall"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "0",
+    "utterance": "Hello! I would like to book a taxi from hughes hall."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "1",
+    "utterance": "Great. Where would you like to go and what time do you want to leave or arrive by?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "arriveby",
+        "value": "2:45"
+       },
+       {
+        "act": "INFORM",
+        "slot": "departure",
+        "value": "hughes hall"
+       },
+       {
+        "act": "INFORM",
+        "slot": "destination",
+        "value": "ali baba"
+       }
+      ],
+      "service": "taxi",
+      "slots": [
+       {
+        "exclusive_end": 21,
+        "slot": "taxi-destination",
+        "start": 13,
+        "value": "Ali Baba"
+       },
+       {
+        "exclusive_end": 94,
+        "slot": "taxi-arriveby",
+        "start": 90,
+        "value": "2:45"
+       }
+      ],
+      "state": {
+       "active_intent": "find_taxi",
+       "requested_slots": [],
+       "slot_values": {
+        "taxi-arriveby": [
+         "02:45",
+         "2:45"
+        ],
+        "taxi-departure": [
+         "hughes hall"
+        ],
+        "taxi-destination": [
+         "ali baba"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "2",
+    "utterance": "I'm going to Ali Baba from Hughes Hall. I would like the taxi to arrive at Hughes Hall at 2:45."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "3",
+    "utterance": "It sounds like you wish to depart Hughes Hall and arrive at Ali Baba by 2:45, is this correct? If so, I've booked a black Ford for you, contact 07392863087."
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "taxi",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "taxi-arriveby": [
+         "02:45",
+         "2:45"
+        ],
+        "taxi-departure": [
+         "hughes hall"
+        ],
+        "taxi-destination": [
+         "ali baba"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "4",
+    "utterance": "That's great. Thanks."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "5",
+    "utterance": "Is there anything else you need help with?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "taxi",
+      "slots": [],
+      "state": {
+       "active_intent": "find_taxi",
+       "requested_slots": [],
+       "slot_values": {
+        "taxi-arriveby": [
+         "02:45",
+         "2:45"
+        ],
+        "taxi-departure": [
+         "hughes hall"
+        ],
+        "taxi-destination": [
+         "ali baba"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "6",
+    "utterance": "No, you have been great."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "7",
+    "utterance": "Thank you. Enjoy your day. Good bye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL0837.json",
+  "services": [
+   "restaurant",
+   "taxi",
+   "train"
+  ],
+  "turns": [
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "pricerange",
+        "value": "cheap"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-pricerange": [
+         "cheap"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "0",
+    "utterance": "I need a place to eat that is cheap."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "1",
+    "utterance": "I have several inexpensive restaurants in different areas of town. Do you have a location preference?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "area",
+        "value": "centre"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-pricerange": [
+         "cheap"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "2",
+    "utterance": "Yes. I want the center area."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "3",
+    "utterance": "i can recommend rice house that serves chinese food"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "food",
+        "value": "english"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 46,
+        "slot": "restaurant-food",
+        "start": 39,
+        "value": "english"
+       }
+      ],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-food": [
+         "english"
+        ],
+        "restaurant-pricerange": [
+         "cheap"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "4",
+    "utterance": "Do you have any restaurants that serve english food?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "5",
+    "utterance": "I am showing nothing for english food in the centre area. Would you like to try something else?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "bookday",
+        "value": "monday"
+       },
+       {
+        "act": "INFORM",
+        "slot": "bookpeople",
+        "value": "8"
+       },
+       {
+        "act": "INFORM",
+        "slot": "booktime",
+        "value": "16:30"
+       },
+       {
+        "act": "INFORM",
+        "slot": "food",
+        "value": "indian"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 65,
+        "slot": "restaurant-booktime",
+        "start": 60,
+        "value": "16:30"
+       },
+       {
+        "exclusive_end": 29,
+        "slot": "restaurant-food",
+        "start": 23,
+        "value": "Indian"
+       }
+      ],
+      "state": {
+       "active_intent": "book_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-bookday": [
+         "monday"
+        ],
+        "restaurant-bookpeople": [
+         "8"
+        ],
+        "restaurant-booktime": [
+         "16:30"
+        ],
+        "restaurant-food": [
+         "indian"
+        ],
+        "restaurant-pricerange": [
+         "cheap"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "6",
+    "utterance": "How about some awesome Indian food. I need a table for 8 on 16:30 monday"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 24,
+        "slot": "restaurant-name",
+        "start": 16,
+        "value": "kohinoor"
+       }
+      ]
+     }
+    ],
+    "speaker": "SYSTEM",
+    "turn_id": "7",
+    "utterance": "i booked you at kohinoor. The table will be reserved for 15 minutes. Reference number is : 1OB1SN34 . is there anything else i can help you with?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "day",
+        "value": "thursday"
+       },
+       {
+        "act": "INFORM",
+        "slot": "departure",
+        "value": "cambridge"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-day": [
+         "thursday"
+        ],
+        "train-departure": [
+         "cambridge"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "book_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-bookday": [
+         "monday"
+        ],
+        "restaurant-bookpeople": [
+         "8"
+        ],
+        "restaurant-booktime": [
+         "16:30"
+        ],
+        "restaurant-food": [
+         "indian"
+        ],
+        "restaurant-name": [
+         "kohinoor"
+        ],
+        "restaurant-pricerange": [
+         "cheap"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "8",
+    "utterance": "Thanks for your help. In addition, I am looking for a Thursday train departing Cambridge, please."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "9",
+    "utterance": "There are 202 trains leaving cambridge on thursday. Where is your destination?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "destination",
+        "value": "ely"
+       }
+      ],
+      "service": "taxi",
+      "slots": [
+       {
+        "exclusive_end": 28,
+        "slot": "taxi-destination",
+        "start": 25,
+        "value": "Ely"
+       }
+      ],
+      "state": {
+       "active_intent": "find_taxi",
+       "requested_slots": [],
+       "slot_values": {
+        "taxi-destination": [
+         "ely train station",
+         "ely"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "destination",
+        "value": "ely"
+       },
+       {
+        "act": "INFORM",
+        "slot": "leaveat",
+        "value": "13:15"
+       }
+      ],
+      "service": "train",
+      "slots": [
+       {
+        "exclusive_end": 50,
+        "slot": "train-leaveat",
+        "start": 45,
+        "value": "13:15"
+       }
+      ],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-day": [
+         "thursday"
+        ],
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "ely"
+        ],
+        "train-leaveat": [
+         "13:15"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-bookday": [
+         "monday"
+        ],
+        "restaurant-bookpeople": [
+         "8"
+        ],
+        "restaurant-booktime": [
+         "16:30"
+        ],
+        "restaurant-food": [
+         "indian"
+        ],
+        "restaurant-name": [
+         "kohinoor"
+        ],
+        "restaurant-pricerange": [
+         "cheap"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "10",
+    "utterance": "I'm looking to travel to Ely departing after 13:15 if possible."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "11",
+    "utterance": "The TR5225 leaves at 13:50 on Thursday. Would you like me to book you?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "bookpeople",
+        "value": "8"
+       },
+       {
+        "act": "REQUEST",
+        "slot": "ref",
+        "value": "?"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "book_train",
+       "requested_slots": [
+        "train-ref"
+       ],
+       "slot_values": {
+        "train-bookpeople": [
+         "8"
+        ],
+        "train-day": [
+         "thursday"
+        ],
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "ely"
+        ],
+        "train-leaveat": [
+         "13:15"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "taxi",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "taxi-destination": [
+         "ely train station",
+         "ely"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-bookday": [
+         "monday"
+        ],
+        "restaurant-bookpeople": [
+         "8"
+        ],
+        "restaurant-booktime": [
+         "16:30"
+        ],
+        "restaurant-food": [
+         "indian"
+        ],
+        "restaurant-name": [
+         "kohinoor"
+        ],
+        "restaurant-pricerange": [
+         "cheap"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "12",
+    "utterance": "Yes, please book 8 tickets and provide me with a reference number"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "13",
+    "utterance": "Okay I have booked that for you and the Reference number is FR546MZC . Is there anything else I can do for you?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "taxi",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "taxi-destination": [
+         "ely train station",
+         "ely"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-bookday": [
+         "monday"
+        ],
+        "restaurant-bookpeople": [
+         "8"
+        ],
+        "restaurant-booktime": [
+         "16:30"
+        ],
+        "restaurant-food": [
+         "indian"
+        ],
+        "restaurant-name": [
+         "kohinoor"
+        ],
+        "restaurant-pricerange": [
+         "cheap"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "train-bookpeople": [
+         "8"
+        ],
+        "train-day": [
+         "thursday"
+        ],
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "ely"
+        ],
+        "train-leaveat": [
+         "13:15"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "14",
+    "utterance": "Great, thanks. That is all for now!"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "15",
+    "utterance": "Ok. I hope you have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG0998.json",
+  "services": [
+   "hotel"
+  ],
+  "turns": [
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "area",
+        "value": "north"
+       },
+       {
+        "act": "INFORM",
+        "slot": "pricerange",
+        "value": "expensive"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-area": [
+         "north"
+        ],
+        "hotel-pricerange": [
+         "expensive"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "0",
+    "utterance": "I'm looking for an expensive place to stay at in the north section of town, can you help with this?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "1",
+    "utterance": "I'm afraid there aren't any expensive places in that area. Would you like me to try a different part of town?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-area": [
+         "north"
+        ],
+        "hotel-pricerange": [
+         "expensive"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "2",
+    "utterance": "Hmm, really. I thought there was. Can you double check please? It can be either a hotel or guesthouse."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "3",
+    "utterance": "I've checked again. Unfortunately, there are no expensive hotels in the northern part of town."
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "pricerange",
+        "value": "moderate"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-area": [
+         "north"
+        ],
+        "hotel-pricerange": [
+         "moderate"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "4",
+    "utterance": "Okay. How about one moderately priced?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "5",
+    "utterance": "We have 11 moderately priced options on the north end. Are free internet or parking requirements for you?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "internet",
+        "value": "yes"
+       },
+       {
+        "act": "INFORM",
+        "slot": "parking",
+        "value": "yes"
+       },
+       {
+        "act": "REQUEST",
+        "slot": "parking",
+        "value": "?"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [
+        "hotel-parking"
+       ],
+       "slot_values": {
+        "hotel-area": [
+         "north"
+        ],
+        "hotel-internet": [
+         "yes"
+        ],
+        "hotel-parking": [
+         "yes"
+        ],
+        "hotel-pricerange": [
+         "moderate"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "6",
+    "utterance": "I will need free wifi and parking."
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [
+       {
+        "exclusive_end": 31,
+        "slot": "hotel-name",
+        "start": 14,
+        "value": "acorn guest house"
+       }
+      ]
+     }
+    ],
+    "speaker": "SYSTEM",
+    "turn_id": "7",
+    "utterance": "How about the acorn guest house. It fits your needs. Shall I book that for you?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "REQUEST",
+        "slot": "postcode",
+        "value": "?"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [
+        "hotel-postcode"
+       ],
+       "slot_values": {
+        "hotel-area": [
+         "north"
+        ],
+        "hotel-internet": [
+         "yes"
+        ],
+        "hotel-name": [
+         "acorn guest house"
+        ],
+        "hotel-parking": [
+         "yes"
+        ],
+        "hotel-pricerange": [
+         "moderate"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "8",
+    "utterance": "Hmm, maybe. What's their postcode?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "9",
+    "utterance": "The post code for the Acorn Guesthouse is , cb41da. Anything else you may need?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-area": [
+         "north"
+        ],
+        "hotel-internet": [
+         "yes"
+        ],
+        "hotel-name": [
+         "acorn guest house"
+        ],
+        "hotel-parking": [
+         "yes"
+        ],
+        "hotel-pricerange": [
+         "moderate"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "10",
+    "utterance": "Great, I will book it myself. Thanks for your help. Bye."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "11",
+    "utterance": "You're welcome. Goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL4904.json",
+  "services": [
+   "hotel"
+  ],
+  "turns": [
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "bookstay",
+        "value": "4"
+       },
+       {
+        "act": "INFORM",
+        "slot": "stars",
+        "value": "4"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-stars": [
+         "4"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "0",
+    "utterance": "Can you help me find a place to stay that has a 4 star rating?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "1",
+    "utterance": "I can certainly help you with that. Do you have a preferred price range or area?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "area",
+        "value": "west"
+       },
+       {
+        "act": "INFORM",
+        "slot": "type",
+        "value": "hotel"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-area": [
+         "west"
+        ],
+        "hotel-stars": [
+         "4"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "2",
+    "utterance": "Thank you. I am looking for a hotel in the west part of town."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "3",
+    "utterance": "I have 3 in west - two are cheap and one is expensive. Preference on price?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "stars",
+        "value": "4"
+       },
+       {
+        "act": "INFORM",
+        "slot": "type",
+        "value": "hotel"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-area": [
+         "west"
+        ],
+        "hotel-stars": [
+         "4"
+        ],
+        "hotel-type": [
+         "hotel"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "4",
+    "utterance": "I do not have a preference on price as long as it has a 4 star rating and is a hotel."
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "hotel",
+      "slots": [
+       {
+        "exclusive_end": 45,
+        "slot": "hotel-name",
+        "start": 20,
+        "value": "Huntingdon Marriott Hotel"
+       }
+      ]
+     }
+    ],
+    "speaker": "SYSTEM",
+    "turn_id": "5",
+    "utterance": "I would suggest the Huntingdon Marriott Hotel. It is very nice. Can I get you some information on it?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "parking",
+        "value": "yes"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "find_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-area": [
+         "west"
+        ],
+        "hotel-name": [
+         "huntingdon marriott hotel"
+        ],
+        "hotel-stars": [
+         "4"
+        ],
+        "hotel-type": [
+         "hotel"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "6",
+    "utterance": "yeah, can you let me know if it has free parking?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "7",
+    "utterance": "Parking and internet are both included, would you like me to book you?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "bookday",
+        "value": "thursday"
+       },
+       {
+        "act": "INFORM",
+        "slot": "bookpeople",
+        "value": "1"
+       },
+       {
+        "act": "INFORM",
+        "slot": "bookstay",
+        "value": "4"
+       },
+       {
+        "act": "INFORM",
+        "slot": "stars",
+        "value": "4"
+       }
+      ],
+      "service": "hotel",
+      "slots": [],
+      "state": {
+       "active_intent": "book_hotel",
+       "requested_slots": [],
+       "slot_values": {
+        "hotel-area": [
+         "west"
+        ],
+        "hotel-bookday": [
+         "thursday"
+        ],
+        "hotel-bookpeople": [
+         "1"
+        ],
+        "hotel-bookstay": [
+         "4"
+        ],
+        "hotel-name": [
+         "huntingdon marriott hotel"
+        ],
+        "hotel-stars": [
+         "4"
+        ],
+        "hotel-type": [
+         "hotel"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [],
+       "slot_values": {}
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "8",
+    "utterance": "Yes, please book for 1 person for 4 nights starting from Thursday."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "9",
+    "utterance": "Your booking was successful. Reference number is : 6I8873PA . Is there anything else I can assist you with today?"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG0352.json",
+  "services": [
+   "train"
+  ],
+  "turns": [
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "departure",
+        "value": "cambridge"
+       },
+       {
+        "act": "INFORM",
+        "slot": "destination",
+        "value": "norwich"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "norwich"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "0",
+    "utterance": "Hello, I'm looking for a train from Cambridge to Norwich."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "1",
+    "utterance": "Certainly, there are many trains going that route. Can you specify which day you'd like to travel?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "day",
+        "value": "saturday"
+       },
+       {
+        "act": "INFORM",
+        "slot": "leaveat",
+        "value": "20:30"
+       }
+      ],
+      "service": "train",
+      "slots": [
+       {
+        "exclusive_end": 46,
+        "slot": "train-leaveat",
+        "start": 41,
+        "value": "20:30"
+       }
+      ],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-day": [
+         "saturday"
+        ],
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "norwich"
+        ],
+        "train-leaveat": [
+         "20:30"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "2",
+    "utterance": "Sorry. I want to leave on Saturday after 20:30."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "3",
+    "utterance": "There is a train Saturday at 20:36. Does that work for you?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "bookpeople",
+        "value": "5"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "book_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-bookpeople": [
+         "5"
+        ],
+        "train-day": [
+         "saturday"
+        ],
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "norwich"
+        ],
+        "train-leaveat": [
+         "20:30"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "4",
+    "utterance": "Yes that works great can I book that for 5 people please?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "5",
+    "utterance": "I have confirmed booking for 5 tickets, your reference number is CID6UHHF . The total fee is 70.4 GBP payable at the station. Can I help with anything else?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "train-bookpeople": [
+         "5"
+        ],
+        "train-day": [
+         "saturday"
+        ],
+        "train-departure": [
+         "cambridge"
+        ],
+        "train-destination": [
+         "norwich"
+        ],
+        "train-leaveat": [
+         "20:30"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "6",
+    "utterance": "Thanks, that's all I need. Have a nice day."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "7",
+    "utterance": "Great! I'm glad we could help."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "MUL1674.json",
+  "services": [
+   "restaurant",
+   "train"
+  ],
+  "turns": [
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "day",
+        "value": "thursday"
+       },
+       {
+        "act": "INFORM",
+        "slot": "destination",
+        "value": "cambridge"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-day": [
+         "thursday"
+        ],
+        "train-destination": [
+         "cambridge"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "0",
+    "utterance": "I need a train on Thursday going to Cambridge."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "1",
+    "utterance": "Sure, where will you be leaving from?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "arriveby",
+        "value": "13:45"
+       },
+       {
+        "act": "INFORM",
+        "slot": "departure",
+        "value": "london liverpool street"
+       }
+      ],
+      "service": "train",
+      "slots": [
+       {
+        "exclusive_end": 75,
+        "slot": "train-arriveby",
+        "start": 70,
+        "value": "13:45"
+       }
+      ],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-arriveby": [
+         "13:45"
+        ],
+        "train-day": [
+         "thursday"
+        ],
+        "train-departure": [
+         "london liverpool street"
+        ],
+        "train-destination": [
+         "cambridge"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "2",
+    "utterance": "Departing from london liverpool street going to cambridge arriving by 13:45 on thursday please."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "3",
+    "utterance": "The TR8805 arrives by 1:07. How many tickets would you like?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "bookpeople",
+        "value": "1"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "book_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-arriveby": [
+         "13:45"
+        ],
+        "train-bookpeople": [
+         "1"
+        ],
+        "train-day": [
+         "thursday"
+        ],
+        "train-departure": [
+         "london liverpool street"
+        ],
+        "train-destination": [
+         "cambridge"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "4",
+    "utterance": "Just one, please"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "5",
+    "utterance": "You're booked for this train and the fee is 16.60 GBP payable at the station. Your reference number is KE8GRDRB . Can I help you with anything else?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "area",
+        "value": "west"
+       },
+       {
+        "act": "INFORM",
+        "slot": "pricerange",
+        "value": "moderate"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "west"
+        ],
+        "restaurant-pricerange": [
+         "moderate"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [
+       {
+        "act": "REQUEST",
+        "slot": "price",
+        "value": "?"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "book_train",
+       "requested_slots": [
+        "train-price"
+       ],
+       "slot_values": {
+        "train-arriveby": [
+         "13:45"
+        ],
+        "train-bookpeople": [
+         "1"
+        ],
+        "train-day": [
+         "thursday"
+        ],
+        "train-departure": [
+         "london liverpool street"
+        ],
+        "train-destination": [
+         "cambridge"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "6",
+    "utterance": "Thanks. I also need to find a place to dine. I'm looking for something moderate in price and in the west."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "7",
+    "utterance": "I have british, indian, or italian, what are you in the mood for?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "food",
+        "value": "italian"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 17,
+        "slot": "restaurant-food",
+        "start": 10,
+        "value": "italian"
+       }
+      ],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "west"
+        ],
+        "restaurant-food": [
+         "italian"
+        ],
+        "restaurant-pricerange": [
+         "moderate"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "train-arriveby": [
+         "13:45"
+        ],
+        "train-bookpeople": [
+         "1"
+        ],
+        "train-day": [
+         "thursday"
+        ],
+        "train-departure": [
+         "london liverpool street"
+        ],
+        "train-destination": [
+         "cambridge"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "8",
+    "utterance": "Let's try italian food."
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 25,
+        "slot": "restaurant-name",
+        "start": 19,
+        "value": "Prezzo"
+       }
+      ]
+     }
+    ],
+    "speaker": "SYSTEM",
+    "turn_id": "9",
+    "utterance": "Okay, I've got the Prezzo in the West area. How does that sound?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "REQUEST",
+        "slot": "address",
+        "value": "?"
+       },
+       {
+        "act": "REQUEST",
+        "slot": "postcode",
+        "value": "?"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [
+        "restaurant-postcode",
+        "restaurant-address"
+       ],
+       "slot_values": {
+        "restaurant-area": [
+         "west"
+        ],
+        "restaurant-food": [
+         "italian"
+        ],
+        "restaurant-name": [
+         "prezzo"
+        ],
+        "restaurant-pricerange": [
+         "moderate"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "train-arriveby": [
+         "13:45"
+        ],
+        "train-bookpeople": [
+         "1"
+        ],
+        "train-day": [
+         "thursday"
+        ],
+        "train-departure": [
+         "london liverpool street"
+        ],
+        "train-destination": [
+         "cambridge"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "10",
+    "utterance": "That sounds perfect. Can I get the postcode for it please?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "11",
+    "utterance": "Sure thing, their zip code is cb30ad."
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "REQUEST",
+        "slot": "address",
+        "value": "?"
+       },
+       {
+        "act": "REQUEST",
+        "slot": "phone",
+        "value": "?"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [
+        "restaurant-phone",
+        "restaurant-address"
+       ],
+       "slot_values": {
+        "restaurant-area": [
+         "west"
+        ],
+        "restaurant-food": [
+         "italian"
+        ],
+        "restaurant-name": [
+         "prezzo"
+        ],
+        "restaurant-pricerange": [
+         "moderate"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "train-arriveby": [
+         "13:45"
+        ],
+        "train-bookpeople": [
+         "1"
+        ],
+        "train-day": [
+         "thursday"
+        ],
+        "train-departure": [
+         "london liverpool street"
+        ],
+        "train-destination": [
+         "cambridge"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "12",
+    "utterance": "What's the address and phone number for that too?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "13",
+    "utterance": "They are located at 21-24 Northampton Road. The phone number is 01799521260."
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "west"
+        ],
+        "restaurant-food": [
+         "italian"
+        ],
+        "restaurant-name": [
+         "prezzo"
+        ],
+        "restaurant-pricerange": [
+         "moderate"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "train-arriveby": [
+         "13:45"
+        ],
+        "train-bookpeople": [
+         "1"
+        ],
+        "train-day": [
+         "thursday"
+        ],
+        "train-departure": [
+         "london liverpool street"
+        ],
+        "train-destination": [
+         "cambridge"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "14",
+    "utterance": "Thanks so much! That's all I need. Goodbye!"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "15",
+    "utterance": "Have a nice day as well. Goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "MUL0259.json",
+  "services": [
+   "restaurant",
+   "train"
+  ],
+  "turns": [
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "area",
+        "value": "centre"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-pricerange": [
+         "expensive"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "0",
+    "utterance": "I'm looking for a pricy restaurant in the city centre"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "1",
+    "utterance": "I found you a British restaurant called Midsummer House Restaurant that is located in midsummer common how does that sound?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "food",
+        "value": "european"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 35,
+        "slot": "restaurant-food",
+        "start": 27,
+        "value": "european"
+       }
+      ],
+      "state": {
+       "active_intent": "find_restaurant",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-food": [
+         "european"
+        ],
+        "restaurant-pricerange": [
+         "expensive"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "2",
+    "utterance": "Does this restaurant serve european food?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 96,
+        "slot": "restaurant-name",
+        "start": 79,
+        "value": "Michaelhouse Cafe"
+       }
+      ]
+     }
+    ],
+    "speaker": "SYSTEM",
+    "turn_id": "3",
+    "utterance": "It does not. For European food in the same area and price range, how about the Michaelhouse Cafe? It is located at St. Michael's Church Trinity Street City Centre."
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "bookday",
+        "value": "monday"
+       },
+       {
+        "act": "INFORM",
+        "slot": "bookpeople",
+        "value": "5"
+       },
+       {
+        "act": "INFORM",
+        "slot": "booktime",
+        "value": "16:15"
+       },
+       {
+        "act": "REQUEST",
+        "slot": "ref",
+        "value": "?"
+       }
+      ],
+      "service": "restaurant",
+      "slots": [
+       {
+        "exclusive_end": 70,
+        "slot": "restaurant-booktime",
+        "start": 65,
+        "value": "16:15"
+       }
+      ],
+      "state": {
+       "active_intent": "book_restaurant",
+       "requested_slots": [
+        "restaurant-ref"
+       ],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-bookday": [
+         "monday"
+        ],
+        "restaurant-bookpeople": [
+         "5"
+        ],
+        "restaurant-booktime": [
+         "16:15"
+        ],
+        "restaurant-food": [
+         "european"
+        ],
+        "restaurant-name": [
+         "michaelhouse cafe"
+        ],
+        "restaurant-pricerange": [
+         "expensive"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [],
+       "slot_values": {}
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "4",
+    "utterance": "Okay. Great. Can you book me a reservation there for 5 people at 16:15 for this Monday? Also I will need a reference number."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "5",
+    "utterance": "Alright, you have been booked at the Michaelhouse Cafe for Monday, 16:15, party of 5. The table will be reserved for 15 minutes. Your reference number is 0W78O9VD ."
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "day",
+        "value": "monday"
+       },
+       {
+        "act": "INFORM",
+        "slot": "departure",
+        "value": "london kings cross"
+       },
+       {
+        "act": "REQUEST",
+        "slot": "leaveat",
+        "value": "?"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "find_train",
+       "requested_slots": [
+        "train-leaveat"
+       ],
+       "slot_values": {
+        "train-day": [
+         "monday"
+        ],
+        "train-departure": [
+         "london kings cross"
+        ],
+        "train-destination": [
+         "cambridge"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-bookday": [
+         "monday"
+        ],
+        "restaurant-bookpeople": [
+         "5"
+        ],
+        "restaurant-booktime": [
+         "16:15"
+        ],
+        "restaurant-food": [
+         "european"
+        ],
+        "restaurant-name": [
+         "michaelhouse cafe"
+        ],
+        "restaurant-pricerange": [
+         "expensive"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "6",
+    "utterance": "Thanks. I will also need take a train from london kings cross station that same day. What time do they leave?"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "7",
+    "utterance": "I have them leaving from 5:17 in the morning for every two hours until 24:08 in the evening. The journey is approximately 51 minutes. Would you like me to book you on the 11:17 or 13:17?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "arriveby",
+        "value": "13:30"
+       }
+      ],
+      "service": "train",
+      "slots": [
+       {
+        "exclusive_end": 25,
+        "slot": "train-arriveby",
+        "start": 20,
+        "value": "13:30"
+       }
+      ],
+      "state": {
+       "active_intent": "book_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-arriveby": [
+         "13:30"
+        ],
+        "train-day": [
+         "monday"
+        ],
+        "train-departure": [
+         "london kings cross"
+        ],
+        "train-destination": [
+         "cambridge"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-bookday": [
+         "monday"
+        ],
+        "restaurant-bookpeople": [
+         "5"
+        ],
+        "restaurant-booktime": [
+         "16:15"
+        ],
+        "restaurant-food": [
+         "european"
+        ],
+        "restaurant-name": [
+         "michaelhouse cafe"
+        ],
+        "restaurant-pricerange": [
+         "expensive"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "8",
+    "utterance": "I need to arrive by 13:30, so let's book the 11:17, please."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "9",
+    "utterance": "How many people would you like to book it for?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "INFORM",
+        "slot": "bookpeople",
+        "value": "5"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "book_train",
+       "requested_slots": [],
+       "slot_values": {
+        "train-arriveby": [
+         "13:30"
+        ],
+        "train-bookpeople": [
+         "5"
+        ],
+        "train-day": [
+         "monday"
+        ],
+        "train-departure": [
+         "london kings cross"
+        ],
+        "train-destination": [
+         "cambridge"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-bookday": [
+         "monday"
+        ],
+        "restaurant-bookpeople": [
+         "5"
+        ],
+        "restaurant-booktime": [
+         "16:15"
+        ],
+        "restaurant-food": [
+         "european"
+        ],
+        "restaurant-name": [
+         "michaelhouse cafe"
+        ],
+        "restaurant-pricerange": [
+         "expensive"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "10",
+    "utterance": "5 people"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "11",
+    "utterance": "Yes I will get that taken care of for you. Anything else i can do for you today?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [
+       {
+        "act": "REQUEST",
+        "slot": "trainid",
+        "value": "?"
+       }
+      ],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "book_train",
+       "requested_slots": [
+        "train-trainid"
+       ],
+       "slot_values": {
+        "train-arriveby": [
+         "13:30"
+        ],
+        "train-bookpeople": [
+         "5"
+        ],
+        "train-day": [
+         "monday"
+        ],
+        "train-departure": [
+         "london kings cross"
+        ],
+        "train-destination": [
+         "cambridge"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-bookday": [
+         "monday"
+        ],
+        "restaurant-bookpeople": [
+         "5"
+        ],
+        "restaurant-booktime": [
+         "16:15"
+        ],
+        "restaurant-food": [
+         "european"
+        ],
+        "restaurant-name": [
+         "michaelhouse cafe"
+        ],
+        "restaurant-pricerange": [
+         "expensive"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "12",
+    "utterance": "I need the train ID, please."
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "13",
+    "utterance": "The train ID for the 11:17 on Monday to London Kings Cross is TR5720. Is there anything else that I can help you with today?"
+   },
+   {
+    "frames": [
+     {
+      "actions": [],
+      "service": "restaurant",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "restaurant-area": [
+         "centre"
+        ],
+        "restaurant-bookday": [
+         "monday"
+        ],
+        "restaurant-bookpeople": [
+         "5"
+        ],
+        "restaurant-booktime": [
+         "16:15"
+        ],
+        "restaurant-food": [
+         "european"
+        ],
+        "restaurant-name": [
+         "michaelhouse cafe"
+        ],
+        "restaurant-pricerange": [
+         "expensive"
+        ]
+       }
+      }
+     },
+     {
+      "actions": [],
+      "service": "train",
+      "slots": [],
+      "state": {
+       "active_intent": "NONE",
+       "requested_slots": [],
+       "slot_values": {
+        "train-arriveby": [
+         "13:30"
+        ],
+        "train-bookpeople": [
+         "5"
+        ],
+        "train-day": [
+         "monday"
+        ],
+        "train-departure": [
+         "london kings cross"
+        ],
+        "train-destination": [
+         "cambridge"
+        ]
+       }
+      }
+     }
+    ],
+    "speaker": "USER",
+    "turn_id": "14",
+    "utterance": "No, I think that's all that I'm looking for, thank for the help!"
+   },
+   {
+    "frames": [],
+    "speaker": "SYSTEM",
+    "turn_id": "15",
+    "utterance": "You are most welcome!"
+   }
+  ]
+ }
+]

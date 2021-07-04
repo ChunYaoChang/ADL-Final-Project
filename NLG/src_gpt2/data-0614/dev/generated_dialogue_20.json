@@ -1,0 +1,2063 @@
+[
+ {
+  "dialogue_id": "SNG0327.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "I need help booking a train, please. I'd like to go to Cambridge on Monday."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Where will you be departing from?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you find a train for you.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I will be departing from london kings cross after 19:00."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "You're in luck! TR8288 departs london kings cross at 19:17, arriving in cambridge at 20:08. The fare is 23.60 GBP. Can I help with anything else today?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes, can you find a close by eatery near where we arrive at?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Sure you need a restaurant? in what part of town and what cuisine?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I've found 10 restaurants that might work for you. There's a nice restaurant in london kings cross.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "How about the center?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I apologize. I need to know how many you need tickets for on the train so I can book your tickets."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I need it for 6 people."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Booked! You will pay 141.6 GBP at the station. Reference number: OGHWPYHK ."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Thank you for your help. This is all i need."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " You are welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Are you sure you don't need a restaurant?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I am sure. I am all set. Thanks so much. Bye."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "All right. Have a good day!"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I hope you have a great time at Cambridge.",
+    "type": "end"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG0369.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "Hi I'm looking for a train that will take me to Cambridge. I want to get there by 15:30."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "What day would you like to travel and which station do you wish to depart from?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you find a train for you.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I am leaving from Stevenage and I would like to travel on Monday."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Very well. What time would you like to depart?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you find the best one for you.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "It doesn't matter when I depart. I just need to arrive in Cambridge by 15:30. I will have 8 people."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "TR9013 will arrive in cambridge by 14:43, does this work for you? Would you like to book a ticket?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you with that. What do you think?",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes for 8 people and I will require a reference number."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Great, I have your 8 tickets booked for the TR9013. The reference number for this is 9VDNJCY8 . Is there anything else I can help you with?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "That is all. Thank you very much!"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " You are welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day!"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I hope you have a great time at Cambridge.",
+    "type": "end"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL3378.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "I am planning a trip in Cambridge."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "OK, can I help you with that? Maybe book you some travel or accommodations?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Actually, I need to find a restaurant."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "there are many restraunts in cambridge, what exactly are you looking for?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are 10 restaurants you may like. What do you think?",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I am looking for a cheap Portuguese place."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "We have two. Would you prefer one in the south or the centre?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " There are so many to choose from in Cambridge.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I'll go with whichever one you recommend. I just need to know the area, postcode, and phone number."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I highly recommend nandos. They are located on the south side of town. Their postcode is cb17dy and their phone number is 01223327908. Is there anything else you need?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes, I need a train, I've got to get to King's Lynn."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Where are you departing from, and what day? Do you have a spcific time you need to leave or arrive by?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you with that. It's a great place to visit.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I would like to depart from Cambridge on Wednesday and arrive in King's Lynn by 09:30."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Okay, that sounds like a plan.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are 4 trains that meet your criteria, departing at 05:11, 06:11, 07:11, or 08:11. Which one would you like me to book?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " There are 4 trains that meet your criteria, departing at 05:10, 06:10, or 08:10. Which one would you like me",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "The departure does not matter. I just need 6 tickets."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I booked you on the TR1574. Your reference is Z6DSQLFY and 58.8 GBP is due at the station. Is there anything else I can help you with?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "No, that will be all. Thank you!"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Have a nice day!",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Hope you have a wonderful day. Goodbye."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Have a wonderful day. I hope you enjoy your trip.",
+    "type": "end"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "MUL2067.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "I need a train for Tuesday that will leave at 2:15."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "there are 2,828 trains with you description, would you kindly specify where it is you are going where from and time"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I'm going from cambridge to broxbourne on tuesday after 12:15, what are my options for that?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are 11 different trains what time would you like to arrive?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I don't care much about arrival time but I need to leave sometime after 12:15, please."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "TR5802 leaves at 13:01, will that work for you?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "TR5802 leaves at 13:02, will that work for you?",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes that works. I need a booking for 6 people."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "You are booked on TR5802. Your reference number is PEGFA2WO . The total fee is 107.4 GBP. Do you need help with anything else?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I'm looking for the alexander bed and breakfast, could you get me the postcode and phone number?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Certainly. Their phone number in 01223525725, postcode cb12de. Shall I book rooms for you at the guesthouse?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Not just yet thank you."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Is there anything else you would like me to lookup for you?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you with anything you may need.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "No thank you, that should be all."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " you ' re welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "If you should need anything else, we are always here to help."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL0963.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "Hi, I am planning a trip to Cambridge and need some help with restaurants."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Dojo Noodle Bar is located at 40210 Millers Yard in the City Centre."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " Dojo Noodle Bar is a great place to eat.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Actually, I am looking for an expensive restaurant in the West area."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are nine expensive restaurants in the west. Is there a type of cuisine you would like to try?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you find a good restaurant for you.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "How about Indian food? Anything good in the west for that?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are five Indian restaurants that meet your criteria. May I suggest Tandoori Palace at 68 Histon Road in Chesterton?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " Do you think that would be a good choice?",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "That will be good, for 5 at 17:15 on Tuesday, please."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "That is booked! Your reference number is R288OI3N . Can I help with anything else?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I also need a train leaving on wednesday going to leicester."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are 19 trains going to Leicester Wednesday, where would you like to depart from and what time?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I would like to depart sometime after 17:45."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "The earliest I have is 18:21. Does this work?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "It is a great place to visit if you are looking for a place to eat.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes, that works. Can you book me 5 tickets please?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I have booked 5 seats on TR8304, departing Cambridge at 18:21. Your reference number is RALFIJUX . Can I assist you with anything else today?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "No that is all thank you!"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " You are welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "You're very welcome, please contact us again if you need further information during your visit to Cambridge."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I hope you have a great time at the restaurant.",
+    "type": "end"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL3379.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "Can you help me find a hotel called home from home?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Sure! It is a guesthouse and has free wifi! What other information do you need?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "It is a great place to stay and it is a great place to visit.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "do they have free parking ?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "They do have free parking yes"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Do you have any other questions?",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I am also looking for a train that goes to cambridge and leaves after 21:15."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Where are you departing from?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you find a train for you.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I'm departing from Leicester on Monday."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I have train TR7658 that leaves at 22:09 and arrives in Cambridge by 23:54. Will that work for you?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " It's a great place to visit if you're looking for a place to stay.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes, can you make a reservation for 4 people on that train? And what is the reference number for the booking please."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Booking was successful, the total fee is 151.19 GBP payable at the station . Reference number is : YDYACFUZ ."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I hope you have a great time at the hotel.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "That is all I need, thanks."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " You are welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I'm glad I could help."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "MUL2184.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "Hey there! Can you find me lodging, please? I'd like to stay at a guesthouse on the east end, if possible."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Sure. What is the price range and how many rooms do you need to book?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I've found 10 guesthouses that meet your criteria. There's a very nice guesthouse at 1520 East Remington Drive that has a 4.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I need a guesthouse with a four star rating located in the east."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Okay, that sounds like a good idea.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are 6 choices. May I recommend the moderately priced Carolina Bed and Breakfast?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " It's a great place to stay.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "That sounds great. Please get me a room for one for three nights on Wednesday."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "My apologies. That booking was not available. Would you like to try another day or a shorter stay?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Let's try just one night."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "It also isn't available for that. Is there another place I could recommend?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are 10 options. The moderate priced Bed and Breakfast is a great choice.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes, one of the 5 other options. Same criteria."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I was able to book Allenbell for you for 1 night on Wednesday. The reference number is CS4G5QZO ."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Could you also book a train that departs from norwich and arrives at cambridge by 14:15?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Certainly. On which day will you be traveling?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I'll be coming into town on Wednesday. How much are the tickets?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "The price for the tickets are 17.60 pounds. Would you like to book a seat?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " Do you think that would be a good deal?",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "sure.Make sure you get train ID and price"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "We have trains arriving hourly. Do you have a preferred departure or arrival time? The trip takes about 1 hour and 15 minutes."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I would just need to arrive by 14:15."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "For how many people?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Just one person, thank you."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I booked you one seat on TR4203 leaving Norwich for Cambridge on Wednesday at 05:16. Reference: Y8U2PD7G . Anything more today?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "What is the price?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "the price is 17.60 pounds."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I hope you enjoy your trip.",
+    "type": "end"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL3786.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "Can you help me find a train leaving Cambridge, to arrive by 12:00?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Where is your destination?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There is a train leaving at 10:40 am and arriving at Cambridge Station.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I am going to Ely."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "On what day will you be travelling?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Actually, I need to go Birmingham New Street and will be traveling on Friday."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I have train TR3732 arriving at 11:44 that is the closest I have to 12:00."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "That is perfect. Can you book 1 seat for me please?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Your booking was successful, the total fee is 75.09 GBP payable at the station. Reference number is : 2J0KM65O . Can I help with anything else?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I need to find a room in the north as well."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Do you have a specific price range or would you like the acorn guest house?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you with that. I can help you with that.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "that guest house is fine."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Great, would you like me to book it? What day will you be arriving, how many nights will you stay and how many people will be staying?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Actually, does the Acorn Guest House provide free parking?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Yes, there is free parking. Could I book it for you?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes please book that for 4 nights starting from monday."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "And how many people will be staying there?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "1 person will be staying."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Sorry, that booking was unsuccessful."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Hmm, how about tuesday?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I am unable to book that?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "No, I am unable to book that for you.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Can you try tuesday one more time for me, I really need to have it that day."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I was able to get that reservation for Monday for you. Booking was successful. Reference number is : FKEP3EGU . Let me know if that will work for you."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Thank you, I really needed to get that reservation. That's all I needed. Thank you."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " You are welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome and enjoy your stay."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day. I hope you enjoy your stay.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Thanks so much, goodbye."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " you ' re welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "MUL2014.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "Hi, I am looking for a hotel in the east of Cambridge with a 4 star rating."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I don't have any hotels that are 4 star in that area but I do have some guesthouses. Would you be interested in taking a look at any of them?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yeah, is there one in the moderate price range and includes wifi?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "a and b guest house is located in 124 tenison road"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "It is a great place to stay. You should check it out.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Can we book that for 2 people on Monday for 4 nights?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "You are booked with a reference number of EI4TCIEU . Can I be of further assistance?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes, I am also looking for a train to Cambridge that leaves after 15:15."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I can help with that. Where will you be departing from?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "You will be departing from Cambridge and arriving at Cambridge Station. You will arrive at 1:40 pm.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I need a train departing from Bishops Stortford leaving after 15:15 for Cambridge on the same day as the booking for the hotel."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I have train TR0465 that will depart at 15:29 and will arrive by 16:07. Do you think this would work for you?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Okay that sounds great, I need to book it for the same number of people as my hotel."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Ok. I booked two tickets for you on train TR0201. Your reference number is 960INQQH ."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Thank you very much! Good bye."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " You are welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "You're so welcome. Have a beautiful day!"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I hope you have a great time at the hotel.",
+    "type": "end"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL1650.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "I'm looking for trains heading to Cambridge, please."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Where is the destination and what day would you like to travel?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I can help you find a train for you.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I will be traveling on Thursday. Going from Leicester to Cambridge."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "And what time?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you find a train for you.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I need to be there by 18:00."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Alright and when would you like to leave by?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you find a good deal. Please let me know if you have any questions.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "That doesn't matter, I'd just like to get there at or right before 18:00."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Ok I have a train arriving at 10:54, its TR3839, how many tickets please"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I will need four tickets please."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Booking was successful, the total fee is 151.19 GBP payable at the station. Reference number is : ZJCV6A8L . Can I help with anything else today?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Oh gosh, I didn't need a train booked. I am looking to book a hotel in the north."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "That's okay. There are two that meet your criteria. The Ashley Hotel, and the Lovell Lodge. Would you like me to book one of them for you?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " That's a great place to stay.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I need the place to be a guesthouse with 4 stars and free wifi"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Okay, I see 8 options here. Do you prefer moderate or cheap price?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you out.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Either would be fine."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "What about the Acorn Guest House? It gets 4 stores and is moderately priced."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I think it's a great place to stay.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Is that a guesthouse? If it is, book it for 5 nights starting Thursday and there's 4 of us."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Yes it is a guesthouse. I made your reservation, and the reference number is KSXKMXWC . Anything else?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Thank so much! No, that will be all, goodbye."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "You are so very welcome! Have a good day!"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I hope you enjoy your stay at the hotel.",
+    "type": "end"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "MUL1326.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "Hi! Do you know of any afghan restaurants in the centre?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Sorry, there are no afghan restaurants in the centre."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Well, if you don't have that, do you have one that serves korean?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Indeed, Little Seoul serves Korean at 108 Regent Street City Centre. Would you like me to make a reservation for you?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes I would like the price range and address please."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "the pricerange is expensive and its at 108 Regent Street City Centre."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Great, thanks. I'm also looking for a hotel in the same area."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are 5 hotels, do you have any other requirements?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes. The hotel should have 0 star rating and include free parking."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I've got the el shaddai. It has free internet and parking. Would you like to book?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " Do you think it's a good place to stay?",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes. I need a booking for 6 people for 3 nights, starting on Friday."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "You're all booked. Your reference number is JA9SNY47 ."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Excellent. Thanks for the help!"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " you ' re welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Great thank you for your help."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG0921.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "Hello! I need a place to bed down for the night that offers free parking and wifi. Can you help me?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Yes, I can help. Do you have a price range and part of town in mind?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I would like a moderate priced hotel in any part of town please."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are two hotels in the north area with moderate prices. Ashley hotel and Lovell Lodge. Both are two stars, would you me to book you for either one?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes, please book the Ashley Hotel."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Certainly. What day would you like to stay?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you find a good hotel for you.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "On second thought, I'm not ready to book yet. Could you give me the address and phone number of the Ashley Hotel?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "They are located at 74 chesterton road. Their number is 01223350059."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Thank you for your help. If I need anything else, I will certainly call again."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "We are here to help, cheers."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "MUL2058.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "Hello, I'm looking for a train that's going to stevenage and leaves on tuesday."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Sure, trains travel to Cambridge every 2 hours, beginning at 06:43. Can I book one for you?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I am looking for a train that departs from Cambridge. I am traveling to Stevenage and I need to arrive by 13:30."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "TR4546 departs at 09:21 and arrives at 10:10. Can I book that train for you?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "No. I just need to know how much the tickets are, please."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "The price for a train ticket from Cambridge to Stevenage is 12.80 pounds. Is there anything else that I can do for you?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes, I am looking for a hotel in town in the moderate price range."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "We have 3 such options. Does star rating matter?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are 10 hotels that meet your criteria. Ac Hotel By Marriott London Bridge is a nice 2 star hotel.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Any should be fine as long as it has free wifi and is located in the centre"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Cityroomz is located in the center, would you like me to make a reservation?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes please for 5 people for 2 nights starting sunday."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "You're all set. The reference code is H3ZT7DY0 . What else can I help with?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "That is all I need hep with. Thank you!"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " you are welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Sure, no problem. Thank you for calling! Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL0720.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "Hello! I'm looking for a restaurant that serves modern european food? I'd also like it to be located in the centre if possible."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There's four modern european restaurants in the centre of town. Do you have a particular price range in mind?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you find a good place to eat.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Moderate would be fine."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are two results. de luca cucina and bar and riverside brasserie, can I book one of these for you?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " Do you think they would be a good choice?",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes please. You can make a recommendation. Book for 6 people at 12:30 on Wednesday and please proved the reference number."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Your table at De luca cucina and bar will be held for 15 minutes. Your reference number is 5PEQ5B4U . Can I be of further assistance?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes, can you help me to find a train into Cambridge for Wednesday?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Where will you be departing from?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "You will be departing from Cambridge and arriving in London.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I need to leave Cambridge and get to London Kings Cross before 12:45."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "TR 9781 is the train closest to that time, gets you there at 11:51. That should give you time to check out the shops. Shall I book you?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes, for 6 people."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "All set! Your reference number is 71LHAW0C . The total fee will be 141.6 GBP."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I hope you have a great time at the restaurant!",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Thank you. That is all that I need."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " You are welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "No problem, I'm glad I was able to assist you today. Enjoy your trip, good day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG02276.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "I'm looking for info about 4-star accommodations, somewhere where they don't nickel-and-dime you for services like wifi."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are 21 guesthouses and hotels in the area that are 4 stars and have free wifi. Do you have a preference for price range or location?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I would like one located in the east with a moderate price range."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are 3 that fit your needs. Do you need parking?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There is a nice 1.5 star hotel called Ac Hotel By Marriott Beverly Hills.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "no, I don't care about that. Surprise me!"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "How about carolina bed and breakfast?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " It's a great place to get a bite to eat.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "thats still fine. book for 1 night"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I'll need to know when you will be arriving, how many nights your stay will be and for how many people."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "It'll be for 5 people and 5 nights starting from wednesday please"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "It appears that carolina bed and breakfast is not available for 5 nights and 5 people on Wednesday. Would you like a different day or shorter stay?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you find the best one for you.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Can you see if they are available for one night? I will need the reference number if available."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I was able to make a reservation for Wednesday night for 5 people. The reservation number is 4KJWHSTI . Can I help with anything else?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "No, I think that's everything I need. Thank you for helping me."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " You are welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "You are welcome. Please let us know if we can help in the future."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day. I hope you enjoy your stay.",
+    "type": "end"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "MUL1482.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "I'm looking for a place to eat that is cheap and in the centre."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are quite a few cheap restaurants in the centre! Did you have a particular type of food in mind?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you find a good place to eat.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "No, I don't really care. I'm just looking for something cheap that is nearby."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "If you're interested in asian oriental food, the dojo noodle bar is cheap and in the center of town. Would you like me to reserve a table for you?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can do that for you if you'd like.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I would like to book a table for 7 people at 18:45 on wednesday at the dojo noodle bar please."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I was able to make that reservation for Dojo Noodle Bar for you, reference number 6NXV7KHZ . Is there anything else I can do for you?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": ".Yes, I also am looking for a train on wednesday. It needs to arrive by 11:15/"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Alright there are quite a few. When would you like to leave by?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " There are quite a few that you might like.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Well, I'd like to depart from Bishop's Stortford and arrive in Cambridge on the last train that will get me there by 11:15."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Ok, I have found you a train leaving Bishop's Stortford at 9:29 and arriving in Cambridge at 10:07. Would you like me to book this for you?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I need 7 tickets and could you tell me the price? can I get the train number and the travel time also please?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "The total fee is 70.7 GBP, the train id is TR9178, and the travel time is 38 minutes."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " Do you think that would be a good deal?",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Okay thank you, that's all I needed."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " you ' re welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Great. Then you are all set. Have a great evening. Goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL1525.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "I need to take a train to cambridge, I will be arriving on Saturday."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Okay. Where will you be departing from?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you find a good one to go to.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I will be leaving from London Kings Cross."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "What time do you need to arrive?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you find a bus for you.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I need to be there by 11:15 and I need a reservation for 5 people. Can you send me the reference number when you have made the reservations?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Ok, I've successfully booked your trip, on train TR4824, arriving in Cambridge at 10:08, the fee is 94.4 GBP and your reference number is TVT0T8VJ ."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Awesome! Now please get me some information on the limehouse hotel"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Limhouse is a guesthouse in the north. It is in the moderate price range and has a 4 star rating. Was there anything else you needed to know?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "No that is all thank you."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Do you need information on any attractions? Is there anything else that I can help you with today?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "You know what? I would like to book the Limehouse for 2 nights on Saturday."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "And for how many people?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Oh sorry, 5 people please."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Your booking was a success! Your reference number is: RJ56SN8K . Can I assist with anything else?"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL0119.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "What can you tell me about cheap restaurants on the west side of town?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There's two: la margherita, a Italian place, and thanh binh, which serves vietnamese food. Can I provide you more information?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I've found 10 restaurants in that area. What do you think?",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Can I get the postcode of that?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "The post code for La Margherita and Thanh binh is cb30af. Would you like a reservation at one of these great restaurants?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "The Italian place would be great."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "How many people will be with you?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " It's a great place to get a bite to eat.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "4 people acan you book it for me ?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Can I also get what time and what day you would like the reservation for?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I'm sorry I don't need a reservation for the restaurant. I do need help finding a place to stay in the same area though."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "What are your other requirements?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Find me one near that Italian Place, it should be in the same price range."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Finches bed and breakfast is a cheap guesthouse on the west side of town. Should I reserve you any rooms?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes, that would be great. I'll need it booked for Saturday, 4 nights, and 8 people. Can I have the reference number please?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Your room is booked, ref #1DCW8JZN . Can I help you with anything else today?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes. I'm looking for a 4 star hotel in the west. Could you please find me one?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "It looks like you're already booked at a hotel. Would you like help with something else?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you with anything you need help with.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "You're right, I'm sorry. I actually have all that I need from you at this time. Have a good day!"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome, have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL3544.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "Hi, I'm looking for an expensive restaurant in north cambridge."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are a few to choose from. The cuisine includes Asian Oriental, Chinese, Oriental and French. Which do you prefer?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "  If you're looking for a place to eat in cambridge, you should check it out.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I need it to be in the north and expensive."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "How about the hotpot?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "It's a great place to eat in cambridge.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Sure. What kind of food do they serve? What is the postcode and phone number?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "The hotpot serves Chinese foods and the phone number is 01223366552 while their zip code is cb41ep. Is there another thing you might want to know?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I would like some information about rosa's bed and breakfast."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Rosa's bed and breakfast is located in the south area, it is in the cheap price range and has a 4 star rating. Would you like their phone number?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " It's a great place to get a bite to eat.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "That's fine. Could I ask you to book a room for me? I need it for one person for four nights, starting on Thursday."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "The reference number is 0XWIWMI1 can I assist with anything else?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "No thats it thanks for your help."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " you ' re welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "You are welcome. Have a good day."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I hope you have a great time at the restaurant.",
+    "type": "end"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "MUL1669.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "I would like to make a reservation at the Maharajah Tandoori restaurant for my trip to Cambridge."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "For when and how many?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "You would like to make a reservation for 2 at the Maharajah Tandoori restaurant in Cambridge on March 2nd at 12:30 pm",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Can you book a table for 5 people at 16:00 on monday?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Booking was successful. The table will be reserved for 15 minutes. Reference number is : ZB0MA4IZ . May I help you further?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes, I also need a train for the same day. We are coming from Stevenage."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Train TR9013 will get you from Stevenage to Cambridge at 14:43. It departs at 13.54. Would you like to book a ticket?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " It is a great place to visit.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I'd prefer something earlier, actually. I need to be in Cambridge by 12:30."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I have a train arriving at 10:43. How does that sound?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "That sounds great. What time does it leave and how much will it cost me?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "It leaves at 9:54 and it will cost 12.80."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " Do you think that would be a good deal?",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Please book it and send me the reference number."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Your train tickets are booked for TR 8265, departing from Stevenage at 9:54, arriving in Cambridge at 10:43. Your reference number isD0V6U0MA . Total is 64 GBP payable at the station."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " Do you think that's a good deal? ",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Fantastic, thank you for the information."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " you ' re welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Is there anything else that I can do for you?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I think that is all I needed today. Thank you."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " You are welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome. Have a great day."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I hope you have a great time at Cambridge.",
+    "type": "end"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL4029.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "Can you help me find a restaurant? I want somewhere expensive."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are 57 results. Is there a certain type of food or area you'd like?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " There are so many to choose from.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "North American, I would would like to eat in the centre area?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "The Gourmet Burger Kitchen would be perfect for you! It's at Regent Street City Centre. Would you like more information?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " It's a great place to eat and drink.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Yes, I'd like to get a table for 6 at 11:45 on Sunday. Could you book that for me?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Booking was successful. Reference number is: DKCSWX6P ."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I hope you have a great time at the restaurant!",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Can you also help me find a hotel called the acorn guest house?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "The Acorn Guest House is located in the north, it is in the moderate price range and has 4 stars. I would be pleased to help you book your stay."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Thank you! I'd like to book a room starting on Sunday. I'll need it for 5 nights and 6 people."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I was able to do that and your reservation number is 6KQ6NMIQ ."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "thanks I am also needing to book at a guesthouse for 6 for 5 nights starting on sunday"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I've got that booked for you. Was there anything else I can help you find today?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "No, that's all I needed. Thanks for your help. Cheers!"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Thank you for using our service!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG01801.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "Hi, I'm needing a taxi, leaving cafe uno and I need to arrive by 24:30"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I can help you with that. where are you going?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I'm headed to churchill college"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I have confirmed a booking for a yellow honda."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I hope you have a great time at the event.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Thank you for your help, before you go, could I get the contact number please?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Sure. It's 07226817225."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Thank you. Bye"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " you ' re welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "You are welcome. Have a good day. Goodbye."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I hope you enjoy your trip.",
+    "type": "end"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "MUL0128.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "Are the any guest house type places to stay in the north part of town available?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are several available. Would you like us to book one for you?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " I can help you find a good place to stay.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "as long as it has free wifi and is moderately priced in the area of north."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There are 8 guesthouses on the north side of town that offer free internet and are moderately priced. What dates would you like to book and for how many people?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "book for 2 people for days starting may 5 to may 7."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "We have acorn guest house, arbury lodge guesthouse, archway house, avalon, hamilton lodge, home from home, kirkwood house, or limehouse?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " Do you think that is a good place to stay?",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Can you book the limehouse for 1 person to stay 4 nights starting saturday?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Yes, that would be great.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Booking was unsuccessful. Would you like to book for another day or a shorter stay?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "how about 3 nights? Also could I get the reference number for the limehouse, and do you know if there is Indian food nearby it?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I have successfully booked your room at the Limehouse. Your reference number is 4VB8JH2B . As for the restaurant, do you have any preferences as far as price range goes?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "No preferences for the price range, but I'd like it to be in the same area as the hotel."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "There is the Nirala, it is moderately priced and the Royal Spice which is in the cheap price range. Would you like me to book a table for you at one of these locations?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "No thanks. I just need the phone number and postcode for each."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "The number for The Nirala is 01223360966 cb41uy. The number for Royal Spice is 01733553355 and the postcode is cb41eh."
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Thank you. That's all I need today."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " You are welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Thank you and have a good day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL0077.json",
+  "turns": [
+   {
+    "speaker": "USER",
+    "utterance": "I'm going to Cambridge and interested in trying some restaurants. Can you recommend one that serves traditional food?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "can please provide more information to help us serve you better."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I have found 10 restaurants that you might like. How about Sushi Bar & Grill in Cambridge?",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Just someting in the moderate price range is all I care about really."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "My apologies. There is nothing in the moderate price range that is traditional. Would you like to try a different type of restaurant?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "How about modern European food?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "How does the riverside brasserie sound? It's at the Doubletree."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " It's a great place to get a bite to eat.",
+    "type": "end"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Sounds good can you make a booking for 7 people at 16:45 on saturday."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Booking was successful. The table will be reserved for 15 minutes. Reference number is : RB2JTPWC . Can I help with anything else today?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "I also need to get some information about The Cambridge Belfry hotel. Can you give me the price range and how many stars it has?"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "The hotel is on the west side and has 4 stars. It is a cheap hotel. Would you like to make a booking?"
+   },
+   {
+    "speaker": "USER",
+    "utterance": "Not at this time, thank you."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": " you ' re welcome.",
+    "type": "beginning"
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "Okay, I will go ahead and sign off. Let me know if you need any further assistance."
+   },
+   {
+    "speaker": "SYSTEM",
+    "utterance": "I hope you enjoy your stay at The Cambridge Belfry.",
+    "type": "end"
+   }
+  ]
+ }
+]

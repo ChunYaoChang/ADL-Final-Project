@@ -124,21 +124,21 @@ def main():
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
     # Prepare tokenizer and model
-    tokenizer = AutoTokenizer.from_pretrained("gpt2", cache_dir="/tmp2/b07902013/project/tokenizer/")
+    tokenizer = AutoTokenizer.from_pretrained("gpt2")
     add_tokens(tokenizer)
-    model = AutoModelForCausalLM.from_pretrained("gpt2", cache_dir="/tmp2/b07902013/project/model/").to(device)
+    model = AutoModelForCausalLM.from_pretrained("gpt2").to(device)
     model.resize_token_embeddings(len(tokenizer))
-    model.load_state_dict(torch.load("/tmp2/b07902013/project/checkpoints/checkpoint-epoch-3.ckpt"))
-    begin_cls = torch.load("/tmp2/b07902013/project/checkpoints/BeginClassifier.mdl").to(device)
-    end_cls = torch.load("/tmp2/b07902013/project/checkpoints/EndClassifier.mdl").to(device)
-    tokenizer_cls = AutoTokenizer.from_pretrained("distilbert-base-uncased", cache_dir="/tmp2/b07902013/project/tokenizer/")
+    model.load_state_dict(torch.load("./checkpoints/gpt2.ckpt"))
+    begin_cls = torch.load("./checkpoints/BeginClassifier.mdl").to(device)
+    end_cls = torch.load("./checkpoints/EndClassifier.mdl").to(device)
+    tokenizer_cls = AutoTokenizer.from_pretrained("distilbert-base-uncased")
 
-    dev_path = "/tmp2/b07902013/project/test_seen/"
+    dev_path = "./test_seen/"
     generate(model, dev_path, begin_cls, end_cls, tokenizer, tokenizer_cls, device)
 
 if __name__ == "__main__":
     logging.basicConfig(
-        filename="/tmp2/b07902013/project/log/generate_seen.txt",
+        filename="./log/generate_seen.txt",
         encoding="utf-8",
         filemode="a",
         format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",

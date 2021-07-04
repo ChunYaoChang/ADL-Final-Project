@@ -1,0 +1,276 @@
+[
+ {
+  "dialogue_id": "4_00122",
+  "services": [
+   "Buses_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Please help me search for a bus."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "When will you leaving and where from? Where are you going?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I will be leaving from Vegas on the 2nd of this month to San Diego."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "I found 1 bus departing at 10:50 am costing $38."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That sounds good and I'd like to buy bus tickets."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "How many tickets would you like?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "It would be for three people."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Please confirm a ticket leaving from Las Vegas to San Diego March 2nd at 10:50 am for 3 people. You won't have extra luggage."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Yes, that is good for me."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "The ticket is confirmed."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Thanks so much for your help."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Would I be able to assist you with anything else?"
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "No, thanks for the help."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Have a wonderful day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "4_00123",
+  "services": [
+   "Buses_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Need your help to find a bus, can you?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What date you are starting and from which place? which place you are planning to go for?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I will be going to Long Beach on 13th of this month and will be starting from San Diego"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "I looked in 10 buses for you and what is your opinion on a bus starting at 6:50 am with cost $25?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Can i know the number of stops of bus?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "The bus is a direct one"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Which is the station bus starting from and where does it arrive?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "The bus will be starting from El Cajon Bus Stop which arrives at Downtown Station"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "This looks very fine"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "You require buying tickets?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Yes i need tickets for two people"
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "please give confirmation details: Your ticket requirement is for 2 people without extra luggage for leaving to Long Beach from San Diego on March 13th at 6:50 am"
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "This is perfect"
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Ticket booking is done"
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "Thank you very much"
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "Is there any other help you require?"
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "No, thank you very much"
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "Have a wonderful day"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "4_00126",
+  "services": [
+   "Buses_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you help me search for a bus please?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Certainly. Please tell me where you are leaving from and your destination."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I am leaving from Fresno heading to San Fran."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "When do you plan on leaving?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I am leaving on March 5th. I need tickets for 3 people on a direct bus route."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I found 8 buses available. How about the bus departing at 10:50 am? The cost is $30."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Which station does it depart from and arrive at?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "It departs from 2660 Tulare St.and arrives at Transbay Terminal."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "That will work fine."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Can I help you with anything else?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "I want to purchase the bus tickets."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Please confirm the following details: You want 3 tickets on the bus leaving from Fresno on March 5th at 10:50 am heading to San Francisco. You don't have extra luggage. Is this correct?"
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Yes that is correct."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Your tickets are confirmed."
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "Thanks for your help."
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "Can I help you with anything else?"
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "No, that is all."
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day."
+   }
+  ]
+ }
+]

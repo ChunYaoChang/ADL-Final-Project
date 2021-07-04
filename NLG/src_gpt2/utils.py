@@ -1,7 +1,7 @@
 import json
 
 def parse_schema():
-    with open("/tmp2/b07902013/schema.json", "r") as f:
+    with open("./schema.json", "r") as f:
         schema = json.load(f)
     domain_to_slots = {}
     for service in schema:
@@ -25,7 +25,7 @@ def add_tokens(tokenizer):
     # <sys>: indicates turn of system
     # <usr>: indicates turn of user
     # <nm>: not mentioned
-    with open("/tmp2/b07902013/schema.json", "r") as f:
+    with open("./schema.json", "r") as f:
         schema = json.load(f)
     additional_special_tokens = ["<st>", "<ac>", "<hi>", "<sys>", "<usr>", "<nm>"]
     for service in schema:

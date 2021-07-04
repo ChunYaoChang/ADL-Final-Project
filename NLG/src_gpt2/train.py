@@ -53,13 +53,13 @@ def main():
     domain_to_slots = parse_schema()
 
     # Prepare tokenizer
-    tokenizer = AutoTokenizer.from_pretrained("gpt2", cache_dir="/tmp2/b07902013/project/tokenizer")
+    tokenizer = AutoTokenizer.from_pretrained("gpt2")
     add_tokens(tokenizer)
 
     # Prepare datasets
-    train_path = "/tmp2/b07902013/project/data-0614/train/"
-    dev_path = "/tmp2/b07902013/project/data-0614/dev/"
-    model = AutoModelForCausalLM.from_pretrained("gpt2", cache_dir="/tmp2/b07902013/project/model/")
+    train_path = "./data-0614/train/"
+    dev_path = "./data-0614/dev/"
+    model = AutoModelForCausalLM.from_pretrained("gpt2")
     model.resize_token_embeddings(len(tokenizer))
     train_data = DialogueDataset(train_path, tokenizer)
     
@@ -72,7 +72,7 @@ def main():
     weight_decay = 1e-3
     gradient_clip_value = 2.0
     gradient_accumulation_step = 128
-    checkpoint_path = "/tmp2/b07902013/project/checkpoints/"
+    checkpoint_path = "./checkpoints/"
 
     no_decay = ["bias", "LayerNorm.weight"]
     param_groups = [
@@ -95,7 +95,7 @@ def main():
 
 if __name__ == "__main__":
     logging.basicConfig(
-        filename="/tmp2/b07902013/project/log/train.txt",
+        filename="./log/training_log.txt",
         encoding="utf-8",
         filemode="a",
         format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
